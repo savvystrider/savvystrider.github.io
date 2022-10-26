@@ -51,6 +51,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://savvystrider.github.io/http-vocabulary/</loc>
+         <lastmod>2022-10-26</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://savvystrider.github.io/mock-surf-report-api-documentation/</loc>
          <lastmod>2022-10-26</lastmod>
          <changefreq>daily</changefreq>
