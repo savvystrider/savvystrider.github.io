@@ -40,6 +40,12 @@ nav:
         - 'Mock surf report API documentation': 'mock-surf-report-api-documentation.md'                                                      
 
 theme: material
+    features:
+        - navigation.tracking
+        - navigation.tabs
+        - navigation.sections
+        - navigation.expand
+        - navigation.top
 markdown_extensions:
   - abbr
   - attr_list
