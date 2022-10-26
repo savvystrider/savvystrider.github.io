@@ -30,12 +30,11 @@ Data values can be mixed.
 
 ***
 
-### What is an object?
-{{< alert >}}
-An **object** is an *unordered* collection of zero or more name/value pairs enclosed in curly braces `{}` and separated by commas.
-{{< /alert >}}
+## What is an object?
 
-#### About objects
+An **object** is an *unordered* collection of zero or more name/value pairs enclosed in curly braces `{}` and separated by commas.
+
+### About objects
 - Objects are JSON's *dictionaries*, meaning they consist of **keys** and **values**, where you can look up a value with a given key.
 - Keys and values are separated from each other with a colon.
 - Key-value pairs are separated with commas.
