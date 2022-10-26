@@ -6,17 +6,18 @@
 These methods are often called *HTTP verbs*. The resource is the *noun*.
 
 
-> **CRUD** refers to the ways that stored data can be operated.
->
-> It also refers to the four basic functions of persistent storage and maps to the four major HTTP methods (see below).
+**CRUD** refers to the ways that stored data can be operated.
+
+It also refers to the four basic functions of persistent storage and maps to the four major HTTP methods (see below).
 *[CRUD]: Create, Read, Update, Delete
 
 HTTP request methods can be:
-- **Safe**: does not alter the state of the server (read-only operation).
-- **Idempotent**: HTTP methods are idempotent if an identical request can be made (once or more) without changing the original result (i.e., no side effects).
-- **Cacheable**: the HTTP response can be cached (stored for retrieval), saving a new request to the server.
 
-***
+- **Safe**: does not alter the state of the server (read-only operation).
+
+- **Idempotent**: HTTP methods are idempotent if an identical request can be made (once or more) without changing the original result (i.e., no side effects).
+
+- **Cacheable**: the HTTP response can be cached (stored for retrieval), saving a new request to the server.
 
 ## HTTP Methods
 `GET`

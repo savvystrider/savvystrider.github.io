@@ -1,8 +1,8 @@
-> A **URI** is a string that refers to a resource.
->
-> The most common URIs are **URLs**, which identify the resource by giving its location on the Web.
->
-> A URL is composed of different parts; some are mandatory and others are optional.
+A **URI** is a string that refers to a resource.
+
+The most common URIs are **URLs**, which identify the resource by giving its location on the Web.
+
+A URL is composed of different parts; some are mandatory and others are optional.
 *[URI]: Uniform Resource Indicator
 *[URL]: Uniform Resource Locator
 

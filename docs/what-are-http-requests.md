@@ -1,4 +1,4 @@
-> **HTTP requests** are messages sent by the client to initiate an action on the server.
+**HTTP requests** are messages sent by the client to initiate an action on the server.
 
 ## Start-line
 
@@ -36,9 +36,7 @@ Defines the structure of the remaining message, acting as an indicator of the ex
 
 A **request header** is a type of HTTP header that can be used in a request to provide information about the request context, so that the server can tailor the response.
 
-Headers are in key-value pairs separated by a colon. Example:
-
-`key`: `value`
+Headers are in key-value pairs separated by a colon.
 
 A **representation header** is a type of HTTP header that describes the particular representation of the resource sent in an HTTP message body. Example:
 

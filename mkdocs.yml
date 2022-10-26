@@ -21,6 +21,7 @@ nav:
            - 'What are HTTP requests?': 'what-are-http-requests.md'
            - 'What are HTTP responses?': 'what-are-http-responses.md'
            - 'The syntax of URIs': 'the-syntax-of-uris.md'
+           - 'HTTP vocabulary': 'http-vocabulary.md'
     - 'JSON':
            - 'What is JSON?': 'what-is-json.md'
            - 'What are the basic JSON data types?': 'what-are-basic-json-data-types.md'

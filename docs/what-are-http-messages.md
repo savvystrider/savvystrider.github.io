@@ -1,9 +1,14 @@
-> **HTTP messages** are how data is exchanged between a server and a client.
-> - Two types of messages:
->   - **requests**, sent by the client to trigger an action on the server.
->   - **responses**, the answer from the server.
-> - Clients and servers communicate by exchanging individual messages (as opposed to a stream of data). 
-> - Messages are human-readable.
+**HTTP messages** are how data is exchanged between a server and a client.
+
+- Two types of messages:
+
+- **requests**, sent by the client to trigger an action on the server.
+
+- **responses**, the answer from the server.
+
+- Clients and servers communicate by exchanging individual messages (as opposed to a stream of data). 
+
+- Messages are human-readable.
 
 ## Structure of requests and responses
 
