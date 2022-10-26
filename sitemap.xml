@@ -16,7 +16,62 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://savvystrider.github.io/five-common-sections-in-rest-api-docs/</loc>
+         <lastmod>2022-10-26</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://savvystrider.github.io/rest-api-vocabulary/</loc>
+         <lastmod>2022-10-26</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://savvystrider.github.io/the-syntax-of-uris/</loc>
+         <lastmod>2022-10-26</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://savvystrider.github.io/what-are-http-messages/</loc>
+         <lastmod>2022-10-26</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://savvystrider.github.io/what-are-http-methods/</loc>
+         <lastmod>2022-10-26</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://savvystrider.github.io/what-are-http-requests/</loc>
+         <lastmod>2022-10-26</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://savvystrider.github.io/what-are-http-responses/</loc>
+         <lastmod>2022-10-26</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://savvystrider.github.io/what-is-a-rest-api/</loc>
+         <lastmod>2022-10-26</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://savvystrider.github.io/what-is-an-api/</loc>
+         <lastmod>2022-10-26</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://savvystrider.github.io/what-is-an-endpoint/</loc>
+         <lastmod>2022-10-26</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://savvystrider.github.io/what-is-http/</loc>
+         <lastmod>2022-10-26</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://savvystrider.github.io/what-is-postman/</loc>
          <lastmod>2022-10-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
