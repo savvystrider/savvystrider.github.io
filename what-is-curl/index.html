@@ -8,14 +8,14 @@
       
       
       
-        <link rel="canonical" href="https://savvystrider.github.io/documenting-single-level-response-in-json/">
+        <link rel="canonical" href="https://savvystrider.github.io/what-is-curl/">
       
       <link rel="icon" href="../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.4.1, mkdocs-material-8.5.7">
     
     
       
-        <title>Documenting a single-level response in JSON - Manish writes about it...</title>
+        <title>What is curl? - Manish writes about it...</title>
       
     
     
@@ -63,6 +63,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#curl-and-rest-api-documentation" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -92,7 +97,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Documenting a single-level response in JSON
+              What is curl?
             
           </span>
         </div>
@@ -504,14 +509,12 @@
 
   
   
-    
-  
   
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_6" type="checkbox" id="__nav_6" checked>
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_6" type="checkbox" id="__nav_6" >
       
       
       
@@ -588,19 +591,11 @@
               
   
   
-    
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-      
-      
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../documenting-single-level-response-in-json/" class="md-nav__link">
         Documenting a single-level response in JSON
       </a>
-      
     </li>
   
 
@@ -660,12 +655,14 @@
 
   
   
+    
+  
   
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_7" type="checkbox" id="__nav_7" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_7" type="checkbox" id="__nav_7" checked>
       
       
       
@@ -686,11 +683,75 @@
               
   
   
+    
   
-    <li class="md-nav__item">
-      <a href="../what-is-curl/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          What is curl?
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         What is curl?
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#curl-and-rest-api-documentation" class="md-nav__link">
+    curl and REST API documentation
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#curl-and-windows" class="md-nav__link">
+    curl and Windows
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#how-to-confirm-if-you-have-curl-installed" class="md-nav__link">
+    How to confirm if you have curl installed
+  </a>
+  
+    <nav class="md-nav" aria-label="How to confirm if you have curl installed">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#sources" class="md-nav__link">
+    Sources
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -824,6 +885,48 @@
   
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#curl-and-rest-api-documentation" class="md-nav__link">
+    curl and REST API documentation
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#curl-and-windows" class="md-nav__link">
+    curl and Windows
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#how-to-confirm-if-you-have-curl-installed" class="md-nav__link">
+    How to confirm if you have curl installed
+  </a>
+  
+    <nav class="md-nav" aria-label="How to confirm if you have curl installed">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#sources" class="md-nav__link">
+    Sources
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -837,70 +940,95 @@
                   
 
 
-  <h1>Documenting a single-level response in JSON</h1>
+  <h1>What is curl?</h1>
 
-<p>JSON with no nesting is the easiest to document because all data is one level.</p>
-<p>For this example, we have one object in curly braces <code>{}</code> with four <strong>key-value pairs</strong>.</p>
-<div class="highlight"><pre><span></span><code><span class="p">{</span><span class="w"></span>
-<span class="w">   </span><span class="nt">&quot;firstName&quot;</span><span class="p">:</span><span class="s2">&quot;Manish&quot;</span><span class="p">,</span><span class="w"></span>
-<span class="w">   </span><span class="nt">&quot;lastName&quot;</span><span class="p">:</span><span class="s2">&quot;Patel&quot;</span><span class="p">,</span><span class="w"></span>
-<span class="w">   </span><span class="nt">&quot;age&quot;</span><span class="p">:</span><span class="mi">16</span><span class="p">,</span><span class="w"></span>
-<span class="w">   </span><span class="nt">&quot;fullTime&quot;</span><span class="p">:</span><span class="kc">true</span><span class="w"></span>
-<span class="p">}</span><span class="w"></span>
+<p><strong>curl</strong>, or <strong><abbr title="client URL">cURL</abbr></strong>, is a command line tool used to transfer data to and from a server. It can execute HTTP requests with different parameters and methods.</p>
+<p>curl lets you talk to a server by specifying the location (in the form of a URL) and the data you want to send.</p>
+<h2 id="curl-and-rest-api-documentation">curl and REST API documentation</h2>
+<p>REST APIs can use almost any programming language to call an endpoint. Documenting each programming language would be too time-consuming, so curl can be used to demonstrate the call.</p>
+<p>If you make a curl request for a website, curl will retrieve and display the website's code.</p>
+<p>For example, the following command:</p>
+<div class="highlight"><pre><span></span><code>curl https://example.com
 </code></pre></div>
-<p>We can document this data using a table. The columns will include:</p>
+<p>returns the following response:</p>
+<div class="highlight"><pre><span></span><code><span class="cp">&lt;!doctype html&gt;</span>
+    <span class="p">&lt;</span><span class="nt">html</span><span class="p">&gt;</span>
+
+    <span class="p">&lt;</span><span class="nt">head</span><span class="p">&gt;</span>
+        <span class="p">&lt;</span><span class="nt">title</span><span class="p">&gt;</span>Example Domain<span class="p">&lt;/</span><span class="nt">title</span><span class="p">&gt;</span>
+
+        <span class="p">&lt;</span><span class="nt">meta</span> <span class="na">charset</span><span class="o">=</span><span class="s">&quot;utf-8&quot;</span> <span class="p">/&gt;</span>
+        <span class="p">&lt;</span><span class="nt">meta</span> <span class="na">http-equiv</span><span class="o">=</span><span class="s">&quot;Content-type&quot;</span> <span class="na">content</span><span class="o">=</span><span class="s">&quot;text/html; charset=utf-8&quot;</span> <span class="p">/&gt;</span>
+        <span class="p">&lt;</span><span class="nt">meta</span> <span class="na">name</span><span class="o">=</span><span class="s">&quot;viewport&quot;</span> <span class="na">content</span><span class="o">=</span><span class="s">&quot;width=device-width, initial-scale=1&quot;</span> <span class="p">/&gt;</span>
+        <span class="p">&lt;</span><span class="nt">style</span> <span class="na">type</span><span class="o">=</span><span class="s">&quot;text/css&quot;</span><span class="p">&gt;</span><span class="w"></span>
+<span class="w">            </span><span class="nt">body</span><span class="w"> </span><span class="p">{</span><span class="w"></span>
+<span class="w">                </span><span class="k">background-color</span><span class="p">:</span><span class="w"> </span><span class="mh">#f0f0f2</span><span class="p">;</span><span class="w"></span>
+<span class="w">                </span><span class="k">margin</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span><span class="w"></span>
+<span class="w">                </span><span class="k">padding</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span><span class="w"></span>
+<span class="w">                </span><span class="k">font-family</span><span class="p">:</span><span class="w"> </span><span class="o">-</span><span class="n">apple-system</span><span class="p">,</span><span class="w"> </span><span class="n">system-ui</span><span class="p">,</span><span class="w"> </span><span class="n">BlinkMacSystemFont</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;Segoe UI&quot;</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;Open Sans&quot;</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;Helvetica Neue&quot;</span><span class="p">,</span><span class="w"> </span><span class="n">Helvetica</span><span class="p">,</span><span class="w"> </span><span class="n">Arial</span><span class="p">,</span><span class="w"> </span><span class="kc">sans-serif</span><span class="p">;</span><span class="w"></span>
+
+<span class="w">            </span><span class="p">}</span><span class="w"></span>
+
+<span class="w">            </span><span class="nt">div</span><span class="w"> </span><span class="p">{</span><span class="w"></span>
+<span class="w">                </span><span class="k">width</span><span class="p">:</span><span class="w"> </span><span class="mi">600</span><span class="kt">px</span><span class="p">;</span><span class="w"></span>
+<span class="w">                </span><span class="k">margin</span><span class="p">:</span><span class="w"> </span><span class="mi">5</span><span class="kt">em</span><span class="w"> </span><span class="kc">auto</span><span class="p">;</span><span class="w"></span>
+<span class="w">                </span><span class="k">padding</span><span class="p">:</span><span class="w"> </span><span class="mi">2</span><span class="kt">em</span><span class="p">;</span><span class="w"></span>
+<span class="w">                </span><span class="k">background-color</span><span class="p">:</span><span class="w"> </span><span class="mh">#fdfdff</span><span class="p">;</span><span class="w"></span>
+<span class="w">                </span><span class="k">border-radius</span><span class="p">:</span><span class="w"> </span><span class="mf">0.5</span><span class="kt">em</span><span class="p">;</span><span class="w"></span>
+<span class="w">                </span><span class="k">box-shadow</span><span class="p">:</span><span class="w"> </span><span class="mi">2</span><span class="kt">px</span><span class="w"> </span><span class="mi">3</span><span class="kt">px</span><span class="w"> </span><span class="mi">7</span><span class="kt">px</span><span class="w"> </span><span class="mi">2</span><span class="kt">px</span><span class="w"> </span><span class="nb">rgba</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span><span class="w"> </span><span class="mf">0.02</span><span class="p">);</span><span class="w"></span>
+<span class="w">            </span><span class="p">}</span><span class="w"></span>
+
+<span class="w">            </span><span class="nt">a</span><span class="p">:</span><span class="nd">link</span><span class="o">,</span><span class="w"></span>
+<span class="w">            </span><span class="nt">a</span><span class="p">:</span><span class="nd">visited</span><span class="w"> </span><span class="p">{</span><span class="w"></span>
+<span class="w">                </span><span class="k">color</span><span class="p">:</span><span class="w"> </span><span class="mh">#38488f</span><span class="p">;</span><span class="w"></span>
+<span class="w">                </span><span class="k">text-decoration</span><span class="p">:</span><span class="w"> </span><span class="kc">none</span><span class="p">;</span><span class="w"></span>
+<span class="w">            </span><span class="p">}</span><span class="w"></span>
+
+<span class="w">            </span><span class="p">@</span><span class="k">media</span><span class="w"> </span><span class="o">(</span><span class="nt">max-width</span><span class="o">:</span><span class="w"> </span><span class="nt">700px</span><span class="o">)</span><span class="w"> </span><span class="p">{</span><span class="w"></span>
+<span class="w">                </span><span class="nt">div</span><span class="w"> </span><span class="p">{</span><span class="w"></span>
+<span class="w">                    </span><span class="k">margin</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="w"> </span><span class="kc">auto</span><span class="p">;</span><span class="w"></span>
+<span class="w">                    </span><span class="k">width</span><span class="p">:</span><span class="w"> </span><span class="kc">auto</span><span class="p">;</span><span class="w"></span>
+<span class="w">                </span><span class="p">}</span><span class="w"></span>
+<span class="w">            </span><span class="p">}</span><span class="w"></span>
+<span class="w">        </span><span class="p">&lt;/</span><span class="nt">style</span><span class="p">&gt;</span>
+    <span class="p">&lt;/</span><span class="nt">head</span><span class="p">&gt;</span>
+
+    <span class="p">&lt;</span><span class="nt">body</span><span class="p">&gt;</span>
+        <span class="p">&lt;</span><span class="nt">div</span><span class="p">&gt;</span>
+            <span class="p">&lt;</span><span class="nt">h1</span><span class="p">&gt;</span>Example Domain<span class="p">&lt;/</span><span class="nt">h1</span><span class="p">&gt;</span>
+            <span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span>This domain is for use in illustrative examples in documents. You may use this
+                domain in literature without prior coordination or asking for permission.<span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span>
+            <span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;&lt;</span><span class="nt">a</span> <span class="na">href</span><span class="o">=</span><span class="s">&quot;https://www.iana.org/domains/example&quot;</span><span class="p">&gt;</span>More information...<span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;&lt;/</span><span class="nt">p</span><span class="p">&gt;</span>
+        <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+    <span class="p">&lt;/</span><span class="nt">body</span><span class="p">&gt;</span>
+
+    <span class="p">&lt;/</span><span class="nt">html</span><span class="p">&gt;</span>
+</code></pre></div>
+<p>If you were to request the same website on a browser, then the browser would display the code in a way that’s visually readable.</p>
+<p>curl, however, shows you what you're actually retrieving (code).</p>
+<h2 id="curl-and-windows">curl and Windows</h2>
 <ul>
-<li>
-<p><strong>Element</strong>: the <em>key</em> in the key-value pair.</p>
-</li>
-<li>
-<p><strong>Description</strong>: a sentence fragment, usually a descriptive noun.</p>
-</li>
-<li>
-<p><strong>Type</strong>: number, string, Boolean, array (specify what it's an array of), or object (what kind of object)</p>
-</li>
-<li>
-<p><strong>Notes</strong> (optional): additional information (omit if not necessary).</p>
-</li>
+<li>Always use double-quotes instead of single-quotes</li>
+<li>Don’t use backslashes (<code>\</code>) to separate lines</li>
+<li>Add <code>-k</code> to the curl command to bypass curl’s security certificate (if necessary)</li>
 </ul>
-<table>
-<thead>
-<tr>
-<th>Element</th>
-<th>Description</th>
-<th>Type</th>
-<th>Notes</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>firstName</td>
-<td>First name</td>
-<td>String</td>
-<td></td>
-</tr>
-<tr>
-<td>lastName</td>
-<td>Last name</td>
-<td>String</td>
-<td></td>
-</tr>
-<tr>
-<td>age</td>
-<td>Age, in years</td>
-<td>Number</td>
-<td></td>
-</tr>
-<tr>
-<td>fullTime</td>
-<td>True, if working full-time; otherwise, false.</td>
-<td>Boolean</td>
-<td>Full-time is defined as 40 hours per week.</td>
-</tr>
-</tbody>
-</table>
+<h2 id="how-to-confirm-if-you-have-curl-installed">How to confirm if you have curl installed</h2>
+<p>Run the following command from the command line:</p>
+<div class="highlight"><pre><span></span><code>curl --version
+</code></pre></div>
+<p>The response should look like this:</p>
+<div class="highlight"><pre><span></span><code>curl 7.83.1 (Windows) libcurl/7.83.1 Schannel
+Release-Date: 2022-05-13
+Protocols: dict file ftp ftps http https imap imaps pop3 pop3s smtp smtps telnet tftp
+Features: AsynchDNS HSTS IPv6 Kerberos Largefile NTLM SPNEGO SSL SSPI UnixSockets
+</code></pre></div>
 <hr />
-<p>The above method is from the course <a href="https://www.udemy.com/course/api-documentation-1-json-and-xml/">Learn API Technical Writing: JSON and XML for Writers</a> by Peter Gruenbaum.</p>
+<h5 id="sources">Sources</h5>
+<ul>
+<li><a href="https://idratherbewriting.com/learnapidoc/">Documenting APIs: A guide for technical writers and engineers</a> by Tom Johnson</li>
+<li><a href="https://curl.se/">curl.se</a></li>
+<li><a href="https://developer.ibm.com/articles/what-is-curl-command/">"What is <abbr title="client URL">cURL</abbr> and how does it relate to APIs?"</a> from IBM Developer</li>
+</ul>
 
 
 
@@ -921,7 +1049,7 @@
     <nav class="md-footer__inner md-grid" aria-label="Footer" >
       
         
-        <a href="../what-is-nesting-in-json/" class="md-footer__link md-footer__link--prev" aria-label="Previous: What is nesting?" rel="prev">
+        <a href="../activity-using-json-to-describe-menu-structure/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Activity - Using JSON to describe the structure of a menu" rel="prev">
           <div class="md-footer__button md-icon">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
           </div>
@@ -930,20 +1058,20 @@
               <span class="md-footer__direction">
                 Previous
               </span>
-              What is nesting?
+              Activity - Using JSON to describe the structure of a menu
             </div>
           </div>
         </a>
       
       
         
-        <a href="../documenting-json-with-nesting/" class="md-footer__link md-footer__link--next" aria-label="Next: Documenting JSON with nesting" rel="next">
+        <a href="../what-are-curl-command-options/" class="md-footer__link md-footer__link--next" aria-label="Next: curl command options" rel="next">
           <div class="md-footer__title">
             <div class="md-ellipsis">
               <span class="md-footer__direction">
                 Next
               </span>
-              Documenting JSON with nesting
+              curl command options
             </div>
           </div>
           <div class="md-footer__button md-icon">
