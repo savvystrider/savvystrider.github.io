@@ -6,7 +6,14 @@ nav:
     - 'About': 'about.md'
     - 'APIs':
         - 'What are APIs?': 'what-is-an-api.md'
-        - 'API vocabulary': 'api-vocabulary.md'        
+        - 'API vocabulary': 'api-vocabulary.md'
+    - 'REST APIs':
+        - 'What are REST APIs?': 'what-is-a-rest-api.md'
+        - 'What is REST?': 'what-is-rest.md'
+        - 'Five common sections in REST API documents': 'five-common-sections-in-rest-api-docs.md'
+        - 'What is an endpoint?': 'what-is-an-endpoint.md'
+        - 'What is Postman?': 'what-is-postman.md'
+        - 'REST API vocabulary': 'rest-api-vocabulary.md'                
 
 theme: material
 markdown_extensions:
