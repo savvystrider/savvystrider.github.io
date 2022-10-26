@@ -11,7 +11,27 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://savvystrider.github.io/activity-using-json-to-describe-menu-structure/</loc>
+         <lastmod>2022-10-26</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://savvystrider.github.io/api-vocabulary/</loc>
+         <lastmod>2022-10-26</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://savvystrider.github.io/documenting-json-requests/</loc>
+         <lastmod>2022-10-26</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://savvystrider.github.io/documenting-json-with-nesting/</loc>
+         <lastmod>2022-10-26</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://savvystrider.github.io/documenting-single-level-response-in-json/</loc>
          <lastmod>2022-10-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -27,6 +47,16 @@
     </url>
     <url>
          <loc>https://savvystrider.github.io/the-syntax-of-uris/</loc>
+         <lastmod>2022-10-26</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://savvystrider.github.io/what-are-arrays-and-objects-in-json/</loc>
+         <lastmod>2022-10-26</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://savvystrider.github.io/what-are-basic-json-data-types/</loc>
          <lastmod>2022-10-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -71,7 +101,22 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://savvystrider.github.io/what-is-json/</loc>
+         <lastmod>2022-10-26</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://savvystrider.github.io/what-is-nesting-in-json/</loc>
+         <lastmod>2022-10-26</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://savvystrider.github.io/what-is-postman/</loc>
+         <lastmod>2022-10-26</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://savvystrider.github.io/what-is-rest/</loc>
          <lastmod>2022-10-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
