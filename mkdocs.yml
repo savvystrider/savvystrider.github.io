@@ -1,0 +1,22 @@
+site_name: Manish writes about it...
+site_url: https://savvystrider.github.io
+
+nav:
+    - 'Home': 'index.md'
+    - 'About': 'about.md'
+    - 'APIs':
+        - 'What are APIs?': 'what-is-an-api.md'
+        - 'API vocabulary': 'api-vocabulary.md'        
+
+theme: material
+markdown_extensions:
+  - abbr
+  - attr_list
+  - pymdownx.snippets
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
