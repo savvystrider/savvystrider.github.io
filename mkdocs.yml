@@ -38,9 +38,8 @@ nav:
         - 'Exercise - Documenting API endpoints': 'exercise-documenting-api-endpoints.md'
         - 'Mock surf report wiki': 'mock-surf-report-wiki.md'
         - 'Mock surf report API documentation': 'mock-surf-report-api-documentation.md'                                                      
-
 theme: material
-    features:
+  features:
         - navigation.tracking
         - navigation.tabs
         - navigation.sections
