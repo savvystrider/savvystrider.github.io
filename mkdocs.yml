@@ -29,7 +29,15 @@ nav:
            - 'Documenting a single-level response in JSON': 'documenting-single-level-response-in-json.md'
            - 'Documenting JSON with nesting': 'documenting-json-with-nesting.md'
            - 'Documenting JSON requests': 'documenting-json-requests.md'
-           - 'Activity - Using JSON to describe the structure of a menu': 'activity-using-json-to-describe-menu-structure.md'                                   
+           - 'Activity - Using JSON to describe the structure of a menu': 'activity-using-json-to-describe-menu-structure.md'
+    - 'curl':
+        - 'What is curl?': 'what-is-curl.md'
+        - 'curl command options': 'what-are-curl-command-options.md'
+        - 'Activity - Use methods with curl': 'activity-use-methods-with-curl.md'
+    - 'Exercise - Documenting Endpoints':
+        - 'Exercise - Documenting API endpoints': 'exercise-documenting-api-endpoints.md'
+        - 'Mock surf report wiki': 'mock-surf-report-wiki.md'
+        - 'Mock surf report API documentation': 'mock-surf-report-api-documentation.md'                                                      
 
 theme: material
 markdown_extensions:
