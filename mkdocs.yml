@@ -13,7 +13,14 @@ nav:
         - 'Five common sections in REST API documents': 'five-common-sections-in-rest-api-docs.md'
         - 'What is an endpoint?': 'what-is-an-endpoint.md'
         - 'What is Postman?': 'what-is-postman.md'
-        - 'REST API vocabulary': 'rest-api-vocabulary.md'                
+        - 'REST API vocabulary': 'rest-api-vocabulary.md'
+    - 'HTTP':
+           - 'What is HTTP?': 'what-is-http.md'
+           - 'What are HTTP methods?': 'what-are-http-methods.md'
+           - 'What are HTTP messages?': 'what-are-http-messages.md'
+           - 'What are HTTP requests?': 'what-are-http-requests.md'
+           - 'What are HTTP responses?': 'what-are-http-responses.md'
+           - 'The syntax of URIs': 'the-syntax-of-uris.md'                        
 
 theme: material
 markdown_extensions:
