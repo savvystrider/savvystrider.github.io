@@ -20,7 +20,16 @@ nav:
            - 'What are HTTP messages?': 'what-are-http-messages.md'
            - 'What are HTTP requests?': 'what-are-http-requests.md'
            - 'What are HTTP responses?': 'what-are-http-responses.md'
-           - 'The syntax of URIs': 'the-syntax-of-uris.md'                        
+           - 'The syntax of URIs': 'the-syntax-of-uris.md'
+    - 'JSON':
+           - 'What is JSON?': 'what-is-json.md'
+           - 'What are the basic JSON data types?': 'what-are-basic-json-data-types.md'
+           - 'What are arrays and objects?': 'what-are-arrays-and-objects-in-json.md'
+           - 'What is nesting?': 'what-is-nesting-in-json.md'
+           - 'Documenting a single-level response in JSON': 'documenting-single-level-response-in-json.md'
+           - 'Documenting JSON with nesting': 'documenting-json-with-nesting.md'
+           - 'Documenting JSON requests': 'documenting-json-requests.md'
+           - 'Activity - Using JSON to describe the structure of a menu': 'activity-using-json-to-describe-menu-structure.md'                                   
 
 theme: material
 markdown_extensions:
