@@ -888,24 +888,26 @@
 
   <h1>What is REST?</h1>
 
-<p><strong><abbr title="Representational State Transfer">REST</abbr></strong> is an <em>architectural-style</em> that refers to more than just APIs. <abbr title="Representational State Transfer">REST</abbr> describes how a client and a server can interact using <abbr title="Hypertext Transfer Protocol">HTTP</abbr> as the form of communication.</p>
-<p>Think about about what happens when you open a web browser and type in a URL (http://...). What's on the other end of that URL?</p>
-<p>A resource, that's what. That resource is a representation of something. It's not the thing itself, just a representation of that thing.</p>
-<p>Each URL identifies a resource. A client makes an <abbr title="Hypertext Transfer Protocol">HTTP</abbr> request to a URL for a resource and receives a representation of that resource in the form of a response.</p>
-<p>Once the client receives the response, the request is over. </p>
+<p><strong><abbr title="Representational State Transfer">REST</abbr></strong> is an <em>architectural-style</em> that refers to more than just APIs. <abbr title="Representational State Transfer">REST</abbr> describes how a client and a server can interact using <abbr title="Hypertext Transfer Protocol">HTTP</abbr> as their form of communication.</p>
+<p>Think about about what happens when you open a web browser and type in a URL (<code>http://</code>...). What's on the other end of that URL?</p>
+<p>A <strong>resource</strong>, that's what. That resource is a representation of something. It's not the thing itself, just a representation of that thing.</p>
+<p>Trying to download a photo of a dog on a skateboard doesn't actually give you a dog on a skateboard. Just a representation of a dog on a skateboard.</p>
+<p>Each URL identifies a resource. Or, that's how it's supposed to work. Real life and the internet can both be complicated.</p>
+<p>Anyway, a client makes an <abbr title="Hypertext Transfer Protocol">HTTP</abbr> request to a URL for a resource and receives a representation of that resource in the form of a response.</p>
+<p>Once the client receives the response, the request is over, and it's almost as if it never happened.</p>
 <p><abbr title="Representational State Transfer">REST</abbr> is defined by four uniform interface constraints:</p>
 <ol>
 <li>
-<p>Identifying named resources (data) for requests. These resources are available through <strong>URIs</strong>.</p>
+<p>Identifying named resources (data) for requests. These resources are made available through <strong>URIs</strong>. A URL is a type of <abbr title="Uniform Resource Indicator">URI</abbr>.</p>
 </li>
 <li>
 <p>The ability to modify or delete the representations of these resources.</p>
 </li>
 <li>
-<p>Self-descriptive messages. Clients and servers exchange messages with enough information to process each request and response. </p>
+<p>Self-descriptive messages. Clients and servers can exchange messages with enough information to process each request and response. </p>
 </li>
 <li>
-<p><abbr title="Hypermedia as the Engine of Application State">HATEOAS</abbr> - </p>
+<p><abbr title="Hypermedia as the Engine of Application State">HATEOAS</abbr>, a fun acronym that describes how <abbr title="Data sent from the server to the client, which explains what the client can do next.">hypermedia</abbr> is served up to a client like a menu, offering the client all the information they need to make requests.</p>
 </li>
 </ol>
 <hr />
