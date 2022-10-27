@@ -1,3 +1,5 @@
+# What are HTTP requests?
+
 **HTTP requests** are messages sent by the client to initiate an action on the server.
 
 ## Start-line
@@ -7,6 +9,7 @@ The start-line of HTTP requests contains three elements:
 **1. HTTP method**
 
 HTTP verbs indicate the action to be performed. These actions include:
+
 - `GET`: fetch a resource
 - `POST`: push data to the server to create a new resource
 - `DELETE`: delete a resource from the server
@@ -15,6 +18,7 @@ HTTP verbs indicate the action to be performed. These actions include:
 **2. Request target**
 
 Target is usually a URL. Options include:
+
 - Absolute path followed by a `?` and query string.
     - This is the most common form and is used with HTTP methods.
 - Complete URL (absolute form)
@@ -30,7 +34,10 @@ Defines the structure of the remaining message, acting as an indicator of the ex
 
 ## Headers
 
-![HTTP request headers](https://developer.mozilla.org/en-US/docs/Web/HTTP/Messages/http_request_headers3.png)
+<figure markdown>
+  ![HTTP request headers](https://developer.mozilla.org/en-US/docs/Web/HTTP/Messages/http_request_headers3.png)
+  <figcaption>Source: MDN Web Docs</figcaption>
+</figure>
 
 **HTTP headers** let the client and the server pass additional information with an HTTP request or response.
 
@@ -38,7 +45,9 @@ A **request header** is a type of HTTP header that can be used in a request to p
 
 Headers are in key-value pairs separated by a colon.
 
-A **representation header** is a type of HTTP header that describes the particular representation of the resource sent in an HTTP message body. Example:
+A **representation header** is a type of HTTP header that describes the particular representation of the resource sent in an HTTP message body.
+
+Example:
 
 `Content-Length`: `100`
 

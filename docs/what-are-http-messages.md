@@ -1,14 +1,14 @@
+# What are HTTP messages?
+
 **HTTP messages** are how data is exchanged between a server and a client.
 
-- Two types of messages:
+There are two types of HTTP messages:
 
-- **requests**, sent by the client to trigger an action on the server.
+- **HTTP requests**, sent by the client to trigger an action on the server.
 
-- **responses**, the answer from the server.
+- **HTTP responses**, the answer from the server.
 
-- Clients and servers communicate by exchanging individual messages (as opposed to a stream of data). 
-
-- Messages are human-readable.
+Clients and servers communicate by exchanging individual messages (as opposed to a stream of data). The messages are human-readable.
 
 ## Structure of requests and responses
 
@@ -29,8 +29,6 @@ HTTP requests and responses share a similar structure and include:
 
 4. an optional **body** that contains data associated with the request or the document associated with the response.
 
-***
-
 ## HTTP Request
 
 <figure markdown>
@@ -41,6 +39,7 @@ HTTP requests and responses share a similar structure and include:
 **HTTP Method**
 
 Defines the operation the client wants to perform. Options include:
+
 - `GET`
 - `POST`
 - `PUT`
@@ -61,8 +60,6 @@ Optional headers to convey additional information for the servers
 **Body**
 
 A `POST` method would contain the resource being sent to the server.
-
-***
 
 ## HTTP Response
 
@@ -94,6 +91,8 @@ Header fields are key-value pairs separated by colons.
 Optional. Contains the fetched resource.
 
 ***
+
+*[HTTP]: Hypertext Transfer Protocol
 
 ##### Sources
 - [MDN Web Docs](https://developer.mozilla.org/en-US/)
