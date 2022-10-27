@@ -44,3 +44,10 @@ HTTP is a stateless protocol.
 *[URI]: Uniform Resource Indicator
 *[URL]: Uniform Resource Locator
 *[CRUD]: Create, Read, Update, Delete
+
+***
+
+##### Sources
+- Fielding, R., Gettys, J., Mogul, J., Frystyk, H., Masinter, L., Leach, P., and T. Berners-Lee, "Hypertext Transfer Protocol -- HTTP/1.1", RFC 2616, DOI 10.17487/RFC2616, June 1999, <https://www.rfc-editor.org/info/rfc2616>.
+- [MDN Web Docs](https://developer.mozilla.org/en-US/)
+- Richardson, L., & Ruby, S. (2013). *RESTful web apis*.
