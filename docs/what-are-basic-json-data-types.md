@@ -1,6 +1,8 @@
+# What are the basic data types in JSON?
+
 The basic data types in JSON are referred to as **values**.
 
-### Strings
+## Strings
 Text enclosed in double-quotation marks.
 
 !!! example
@@ -9,7 +11,7 @@ Text enclosed in double-quotation marks.
     "example"
     ```
 
-### Numbers
+## Numbers
 - Integer (whole) or decimal
 - Positive or negative
 - Zero
@@ -21,7 +23,7 @@ Text enclosed in double-quotation marks.
     [1, 2.5, 0, 382]
     ```
 
-### Booleans
+## Booleans
 - True or false
 - No quotation marks
 
@@ -31,7 +33,7 @@ Text enclosed in double-quotation marks.
     [true, false, false, true]
     ```
 
-### Null
+## Null
 
 - Means "nothing"
 - No quotation marks

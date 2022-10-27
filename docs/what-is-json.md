@@ -1,5 +1,8 @@
+# What is JSON?
+
 **JSON** is a lightweight data-interchange format originally created to hold structured data to be used in JavaScript.
 *[JSON]: JavaScript Object Notation
+*[XML]: Extensible Markup Language
 
 JSON is:
 
@@ -15,7 +18,9 @@ JSON is:
 
 - pronounced *jay-sAHn*.
 
-REST APIs usually return information in XML or JSON format; however, JSON is used most often.
+!!! note
+
+    REST APIs usually return information in XML or JSON format; however, JSON is used most often.
 
 ***
 ##### Sources
