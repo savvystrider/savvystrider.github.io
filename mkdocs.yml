@@ -31,6 +31,7 @@ nav:
            - 'Documenting JSON with nesting': 'documenting-json-with-nesting.md'
            - 'Documenting JSON requests': 'documenting-json-requests.md'
            - 'Activity - Using JSON to describe the structure of a menu': 'activity-using-json-to-describe-menu-structure.md'
+           - 'JSON vocabulary': 'json-vocabulary.md'
     - 'curl':
         - 'What is curl?': 'what-is-curl.md'
         - 'curl command options': 'what-are-curl-command-options.md'
