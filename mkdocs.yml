@@ -44,6 +44,7 @@ nav:
         - 'What is XML?': 'what-is-xml.md'
         - 'What are tags and elements in XML?': 'what-are-tags-and-elements-in-xml.md'
         - 'What are attributes in XML?': 'what-are-attributes-in-xml.md'
+        - 'XML vocabulary': 'xml-vocabulary.md'
 theme: material
 markdown_extensions:
   - abbr
