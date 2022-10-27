@@ -121,6 +121,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://savvystrider.github.io/what-are-namespaces-in-xml/</loc>
+         <lastmod>2022-10-27</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://savvystrider.github.io/what-are-tags-and-elements-in-xml/</loc>
          <lastmod>2022-10-27</lastmod>
          <changefreq>daily</changefreq>
