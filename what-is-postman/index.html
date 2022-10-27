@@ -64,7 +64,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#how-to-make-a-request-with-postman" class="md-skip">
+        <a href="#what-is-postman" class="md-skip">
           Skip to content
         </a>
       
@@ -365,6 +365,8 @@
       <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
       
       
+        
+      
       
         <label class="md-nav__link md-nav__link--active" for="__toc">
           What is Postman?
@@ -380,6 +382,8 @@
 <nav class="md-nav md-nav--secondary" aria-label="Table of contents">
   
   
+  
+    
   
   
     <label class="md-nav__title" for="__toc">
@@ -919,6 +923,8 @@
   
   
   
+    
+  
   
     <label class="md-nav__title" for="__toc">
       <span class="md-nav__icon md-icon"></span>
@@ -982,17 +988,12 @@
                   
 
 
-  <h1>What is Postman?</h1>
-
-<blockquote>
+<h1 id="what-is-postman">What is Postman?</h1>
 <p><strong>Postman</strong> is an API platform for building and using APIs, and generating API documentation.</p>
-</blockquote>
-<p>Postman is known as a <strong>GUI REST client</strong>, meaning it has a graphical user interface.</p>
-<p>We will use Postman to make a <code>GET</code> request for the weather using the <a href="https://openweathermap.org/api">OpenWeatherMap API</a>.</p>
-<p>To use this API, you must create an account and create an <code>API key</code>:</p>
-<p><code>e326886bb536c5eac65ccc70df1067bb</code></p>
-<hr />
-<h3 id="how-to-make-a-request-with-postman">How to make a request with Postman</h3>
+<p>Postman is known as a <strong>GUI REST client</strong>, meaning it has a graphical user interface and can invoke REST services.</p>
+<p>For this exercise, we will use Postman to make a <code>GET</code> request for the weather using the <a href="https://openweathermap.org/api">OpenWeatherMap API</a>.</p>
+<p>To use this API, you must create an account and create an <code>API key</code>.</p>
+<h2 id="how-to-make-a-request-with-postman">How to make a request with Postman</h2>
 <ol>
 <li>Download and install Postman.</li>
 <li>Open Postman.</li>
@@ -1003,7 +1004,7 @@
 <p><code>https://api.openweathermap.org/data/2.5/weather</code></p>
 </li>
 <li>
-<p>Click on the tab labelled <strong>Params</strong> (parameters). It is below the <strong>GET</strong> drop-down box and should be displayed by default.</p>
+<p>Click on the tab labelled <strong>Params</strong> (parameters). It should be displayed by default.</p>
 </li>
 <li>
 <p>Add the following parameters in the respective <strong>key</strong> and <strong>value</strong> rows:</p>
@@ -1064,20 +1065,22 @@
 <span class="w">   </span><span class="nt">&quot;cod&quot;</span><span class="p">:</span><span class="mi">200</span><span class="w"></span>
 <span class="p">}</span><span class="w"></span>
 </code></pre></div>
-<h3 id="how-to-make-the-same-request-with-curl">How to make the same request with curl</h3>
+<h2 id="how-to-make-the-same-request-with-curl">How to make the same request with curl</h2>
 <ol>
-<li>In Postman, click on the code (****) button.</li>
+<li>In Postman, click on the code (<strong>&lt; / &gt;</strong>) button.</li>
 <li>Below <strong>Code Snippet</strong>, select <strong>cURL</strong> from the dropdown.</li>
 <li>Copy the code using the <strong>Copy snippet</strong> button.</li>
 <li>Paste the code into the command line.</li>
 <li>Replace the single-quotes around the hyperlink with double-quotes to avoid an error message:</li>
 </ol>
 <p><code>curl --location --request GET "https://api.openweathermap.org/data/2.5/weather?zip=28215&amp;units=imperial&amp;appid=e326886bb536c5eac65ccc70df1067bb"</code></p>
+<div class="admonition success">
+<p class="admonition-title">Success</p>
+</div>
 <p>The unminified (unformatted) response should look like this:</p>
-<pre><code>{"coord":{"lon":-80.7387,"lat":35.244},"weather":[{"id":802,"main":"Clouds","description":"scattered clouds","icon":"03d"}],"base":"stations","main":{"temp":64.02,"feels_like":63.32,"temp_min":60.94,"temp_max":66.99,"pressure":1027,"humidity":68},"visibility":10000,"wind":{"speed":10.36,"deg":70},"clouds":{"all":40},"dt":1665416552,"sys":{"type":2,"id":2011045,"country":"US","sunrise":1665401084,"sunset":1665442490},"timezone":-14400,"id":0,"name":"Charlotte","cod":200}
-</code></pre>
-<hr />
-<h3 id="how-to-save-a-request-with-postman">How to save a request with Postman</h3>
+<div class="highlight"><pre><span></span><code><span class="p">{</span><span class="nt">&quot;coord&quot;</span><span class="p">:{</span><span class="nt">&quot;lon&quot;</span><span class="p">:</span><span class="mf">-80.7387</span><span class="p">,</span><span class="nt">&quot;lat&quot;</span><span class="p">:</span><span class="mf">35.244</span><span class="p">},</span><span class="nt">&quot;weather&quot;</span><span class="p">:[{</span><span class="nt">&quot;id&quot;</span><span class="p">:</span><span class="mi">802</span><span class="p">,</span><span class="nt">&quot;main&quot;</span><span class="p">:</span><span class="s2">&quot;Clouds&quot;</span><span class="p">,</span><span class="nt">&quot;description&quot;</span><span class="p">:</span><span class="s2">&quot;scattered clouds&quot;</span><span class="p">,</span><span class="nt">&quot;icon&quot;</span><span class="p">:</span><span class="s2">&quot;03d&quot;</span><span class="p">}],</span><span class="nt">&quot;base&quot;</span><span class="p">:</span><span class="s2">&quot;stations&quot;</span><span class="p">,</span><span class="nt">&quot;main&quot;</span><span class="p">:{</span><span class="nt">&quot;temp&quot;</span><span class="p">:</span><span class="mf">64.02</span><span class="p">,</span><span class="nt">&quot;feels_like&quot;</span><span class="p">:</span><span class="mf">63.32</span><span class="p">,</span><span class="nt">&quot;temp_min&quot;</span><span class="p">:</span><span class="mf">60.94</span><span class="p">,</span><span class="nt">&quot;temp_max&quot;</span><span class="p">:</span><span class="mf">66.99</span><span class="p">,</span><span class="nt">&quot;pressure&quot;</span><span class="p">:</span><span class="mi">1027</span><span class="p">,</span><span class="nt">&quot;humidity&quot;</span><span class="p">:</span><span class="mi">68</span><span class="p">},</span><span class="nt">&quot;visibility&quot;</span><span class="p">:</span><span class="mi">10000</span><span class="p">,</span><span class="nt">&quot;wind&quot;</span><span class="p">:{</span><span class="nt">&quot;speed&quot;</span><span class="p">:</span><span class="mf">10.36</span><span class="p">,</span><span class="nt">&quot;deg&quot;</span><span class="p">:</span><span class="mi">70</span><span class="p">},</span><span class="nt">&quot;clouds&quot;</span><span class="p">:{</span><span class="nt">&quot;all&quot;</span><span class="p">:</span><span class="mi">40</span><span class="p">},</span><span class="nt">&quot;dt&quot;</span><span class="p">:</span><span class="mi">1665416552</span><span class="p">,</span><span class="nt">&quot;sys&quot;</span><span class="p">:{</span><span class="nt">&quot;type&quot;</span><span class="p">:</span><span class="mi">2</span><span class="p">,</span><span class="nt">&quot;id&quot;</span><span class="p">:</span><span class="mi">2011045</span><span class="p">,</span><span class="nt">&quot;country&quot;</span><span class="p">:</span><span class="s2">&quot;US&quot;</span><span class="p">,</span><span class="nt">&quot;sunrise&quot;</span><span class="p">:</span><span class="mi">1665401084</span><span class="p">,</span><span class="nt">&quot;sunset&quot;</span><span class="p">:</span><span class="mi">1665442490</span><span class="p">},</span><span class="nt">&quot;timezone&quot;</span><span class="p">:</span><span class="mi">-14400</span><span class="p">,</span><span class="nt">&quot;id&quot;</span><span class="p">:</span><span class="mi">0</span><span class="p">,</span><span class="nt">&quot;name&quot;</span><span class="p">:</span><span class="s2">&quot;Charlotte&quot;</span><span class="p">,</span><span class="nt">&quot;cod&quot;</span><span class="p">:</span><span class="mi">200</span><span class="p">}</span><span class="w"></span>
+</code></pre></div>
+<h2 id="how-to-save-a-request-with-postman">How to save a request with Postman</h2>
 <ol>
 <li>In Postman, click the <strong>Save</strong> button. It is above the <strong>Send</strong> button.</li>
 <li>In the <strong>Request name</strong> box, replace the endpoint with: <code>OpenWeatherMap Current API</code>.</li>
@@ -1088,9 +1091,11 @@
 <li>Click <strong>Create</strong>.</li>
 <li>Click the orange <strong>Save</strong> button.</li>
 </ol>
+<div class="admonition success">
+<p class="admonition-title">Success</p>
+</div>
 <p>The request has been saved and will now appear in the left-side pane in the <strong>Collections</strong> tab.</p>
-<hr />
-<h3 id="how-to-create-a-run-in-postman-button">How to create a Run in Postman button</h3>
+<h2 id="how-to-create-a-run-in-postman-button">How to create a Run in Postman button</h2>
 <ol>
 <li>Click on the <strong>Collections</strong> tab in the left-side pane.</li>
 <li>Next to the collection name, select the <em>more actions</em> icon (three dots) and then click <strong>Share</strong>.</li>

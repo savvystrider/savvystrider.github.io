@@ -64,7 +64,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#sample-endpoint" class="md-skip">
+        <a href="#what-is-an-endpoint" class="md-skip">
           Skip to content
         </a>
       
@@ -351,6 +351,8 @@
       <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
       
       
+        
+      
       
         <label class="md-nav__link md-nav__link--active" for="__toc">
           What is an endpoint?
@@ -366,6 +368,8 @@
 <nav class="md-nav md-nav--secondary" aria-label="Table of contents">
   
   
+  
+    
   
   
     <label class="md-nav__title" for="__toc">
@@ -898,6 +902,8 @@
   
   
   
+    
+  
   
     <label class="md-nav__title" for="__toc">
       <span class="md-nav__icon md-icon"></span>
@@ -940,25 +946,28 @@
                   
 
 
-  <h1>What is an endpoint?</h1>
-
+<h1 id="what-is-an-endpoint">What is an endpoint?</h1>
 <p>REST APIs focus on <em>resources</em> and how to <em>access</em> those resources.</p>
 <p>Resources are accessed through endpoints.</p>
-<p>An <strong>endpoint</strong> is the address (URL), or <em>location</em>, of the resource.</p>
-<p>These resources can be accessed through <strong>HTTP methods</strong>:
-- <code>GET</code> - read
-- <code>POST</code> - create
-- <code>PUT</code> - update
-- <code>DELETE</code> - delete</p>
-<p>The endpoint usually includes <strong>query parameters</strong> that specify more information about the representation of the requested resource.</p>
+<p>An <strong>endpoint</strong> is the address (<abbr title="Uniform Resource Locator">URL</abbr>), or <em>location</em>, of the resource.</p>
+<p>These resources can be accessed through <strong>HTTP methods</strong>:</p>
+<ul>
+<li><code>GET</code> - read</li>
+<li><code>POST</code> - create</li>
+<li><code>PUT</code> - update</li>
+<li><code>DELETE</code> - delete</li>
+</ul>
+<p>The endpoint can include <strong>query parameters</strong> that specify more information about the representation of the requested resource.</p>
 <p>For example, you can specify (in a query parameter) that you want to limit the display to 5 instances of the resource (see example below).</p>
 <h2 id="sample-endpoint">Sample endpoint:</h2>
-<p><code>http://apiserver.com/homes?limit=5&amp;format=json</code></p>
-<blockquote>
+<div class="admonition example">
+<p class="admonition-title">Example</p>
+<div class="highlight"><pre><span></span><code>http://apiserver.com/homes?limit=5<span class="err">&amp;</span>format=json
+</code></pre></div>
+</div>
 <p><strong>Base path</strong>: <code>http://apiserver.com</code></p>
 <p><strong>Endpoint</strong>: <code>/homes</code></p>
 <p><strong>Query string parameters</strong>: <code>?limit=5&amp;format=json</code></p>
-</blockquote>
 <hr />
 <h5 id="sources">Sources</h5>
 <ul>
