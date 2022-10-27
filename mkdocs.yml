@@ -45,6 +45,7 @@ nav:
         - 'What are tags and elements in XML?': 'what-are-tags-and-elements-in-xml.md'
         - 'What are attributes in XML?': 'what-are-attributes-in-xml.md'
         - 'What are namespaces in XML?': 'what-are-namespaces-in-xml.md'
+        - 'Using XML to document a weather forecast': 'using-xml-to-document-weather-forecast.md'
         - 'XML vocabulary': 'xml-vocabulary.md'
 theme: material
 markdown_extensions:
