@@ -12,7 +12,10 @@
 
 ## Structure of requests and responses
 
-![HTTP message structure](https://developer.mozilla.org/en-US/docs/Web/HTTP/Messages/httpmsgstructure2.png)
+<figure markdown>
+  ![HTTP message structure](https://developer.mozilla.org/en-US/docs/Web/HTTP/Messages/httpmsgstructure2.png)
+  <figcaption>Source: MDN Web Docs</figcaption>
+</figure>
 
 HTTP requests and responses share a similar structure and include:
 
@@ -30,7 +33,10 @@ HTTP requests and responses share a similar structure and include:
 
 ## HTTP Request
 
-![HTTP request](https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview/http_request.png)
+<figure markdown>
+  ![HTTP request](https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview/http_request.png)
+  <figcaption>Source: MDN Web Docs</figcaption>
+</figure>
 
 **HTTP Method**
 
@@ -60,7 +66,10 @@ A `POST` method would contain the resource being sent to the server.
 
 ## HTTP Response
 
-![HTTP response](https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview/http_response.png)
+<figure markdown>
+  ![HTTP response](https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview/http_response.png)
+  <figcaption>Source: MDN Web Docs</figcaption>
+</figure>
 
 **Version**
 
