@@ -1,16 +1,14 @@
-> **Postman** is an API platform for building and using APIs, and generating API documentation.
+# What is Postman?
 
-Postman is known as a **GUI REST client**, meaning it has a graphical user interface.
+**Postman** is an API platform for building and using APIs, and generating API documentation.
 
-We will use Postman to make a `GET` request for the weather using the [OpenWeatherMap API](https://openweathermap.org/api).
+Postman is known as a **GUI REST client**, meaning it has a graphical user interface and can invoke REST services.
 
-To use this API, you must create an account and create an `API key`:
+For this exercise, we will use Postman to make a `GET` request for the weather using the [OpenWeatherMap API](https://openweathermap.org/api).
 
-`e326886bb536c5eac65ccc70df1067bb`
+To use this API, you must create an account and create an `API key`.
 
-***
-
-### How to make a request with Postman
+## How to make a request with Postman
 
 1. Download and install Postman.
 2. Open Postman.
@@ -20,7 +18,7 @@ To use this API, you must create an account and create an `API key`:
 
     `https://api.openweathermap.org/data/2.5/weather`
 
-6. Click on the tab labelled **Params** (parameters). It is below the **GET** drop-down box and should be displayed by default.
+6. Click on the tab labelled **Params** (parameters). It should be displayed by default.
 7. Add the following parameters in the respective **key** and **value** rows:
 
     - **key**: `zip` / **value**: `28215`
@@ -81,24 +79,25 @@ To use this API, you must create an account and create an `API key`:
 }
 ```
 
-### How to make the same request with curl
+## How to make the same request with curl
 
-1. In Postman, click on the code (**</>**) button.
+1. In Postman, click on the code (**< / >**) button.
 2. Below **Code Snippet**, select **cURL** from the dropdown.
 3. Copy the code using the **Copy snippet** button.
 4. Paste the code into the command line.
 5. Replace the single-quotes around the hyperlink with double-quotes to avoid an error message:
 
-`curl --location --request GET "https://api.openweathermap.org/data/2.5/weather?zip=28215&units=imperial&appid=e326886bb536c5eac65ccc70df1067bb"`
+   `curl --location --request GET "https://api.openweathermap.org/data/2.5/weather?zip=28215&units=imperial&appid=e326886bb536c5eac65ccc70df1067bb"`
 
-The unminified (unformatted) response should look like this:
+!!! success   
+   
+   The unminified (unformatted) response should look like this:
+   
+   ```json
+   {"coord":{"lon":-80.7387,"lat":35.244},"weather":[{"id":802,"main":"Clouds","description":"scattered clouds","icon":"03d"}],"base":"stations","main":{"temp":64.02,"feels_like":63.32,"temp_min":60.94,"temp_max":66.99,"pressure":1027,"humidity":68},"visibility":10000,"wind":{"speed":10.36,"deg":70},"clouds":{"all":40},"dt":1665416552,"sys":{"type":2,"id":2011045,"country":"US","sunrise":1665401084,"sunset":1665442490},"timezone":-14400,"id":0,"name":"Charlotte","cod":200}
+   ```
 
-    {"coord":{"lon":-80.7387,"lat":35.244},"weather":[{"id":802,"main":"Clouds","description":"scattered clouds","icon":"03d"}],"base":"stations","main":{"temp":64.02,"feels_like":63.32,"temp_min":60.94,"temp_max":66.99,"pressure":1027,"humidity":68},"visibility":10000,"wind":{"speed":10.36,"deg":70},"clouds":{"all":40},"dt":1665416552,"sys":{"type":2,"id":2011045,"country":"US","sunrise":1665401084,"sunset":1665442490},"timezone":-14400,"id":0,"name":"Charlotte","cod":200}
-
-
-***
-
-### How to save a request with Postman
+## How to save a request with Postman
 1. In Postman, click the **Save** button. It is above the **Send** button.
 2. In the **Request name** box, replace the endpoint with: `OpenWeatherMap Current API`.
 3. Click the **Add Description** box.
@@ -108,11 +107,11 @@ The unminified (unformatted) response should look like this:
 7. Click **Create**.
 8. Click the orange **Save** button.
 
-The request has been saved and will now appear in the left-side pane in the **Collections** tab.
+!!! success
 
-***
+   The request has been saved and will now appear in the left-side pane in the **Collections** tab.
 
-### How to create a Run in Postman button
+## How to create a Run in Postman button
 1. Click on the **Collections** tab in the left-side pane.
 2. Next to the collection name, select the *more actions* icon (three dots) and then click **Share**.
 3. Click on the **Via Run in Postman** tab.
@@ -120,7 +119,7 @@ The request has been saved and will now appear in the left-side pane in the **Co
 5. Click on the **Markdown friendly** option.
 6. Click **Copy code** and embed the code below:
 
-[![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/d95c183e4c7fce5c07fb?action=collection%2Fimport)
+   [![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/d95c183e4c7fce5c07fb?action=collection%2Fimport)
 
 ***
 

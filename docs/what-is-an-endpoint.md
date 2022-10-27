@@ -1,28 +1,36 @@
+# What is an endpoint?
+
 REST APIs focus on *resources* and how to *access* those resources.
 
 Resources are accessed through endpoints.
 
 An **endpoint** is the address (URL), or *location*, of the resource.
+*[URL]: Uniform Resource Locator
 
 These resources can be accessed through **HTTP methods**:
+
 - `GET` - read
 - `POST` - create
 - `PUT` - update
 - `DELETE` - delete
 
-The endpoint usually includes **query parameters** that specify more information about the representation of the requested resource.
+The endpoint can include **query parameters** that specify more information about the representation of the requested resource.
 
 For example, you can specify (in a query parameter) that you want to limit the display to 5 instances of the resource (see example below).
 
 ## Sample endpoint:
 
-`http://apiserver.com/homes?limit=5&format=json`
+!!! example
 
-> **Base path**: `http://apiserver.com`
->
-> **Endpoint**: `/homes`
->
-> **Query string parameters**: `?limit=5&format=json`
+    ```html
+    http://apiserver.com/homes?limit=5&format=json
+    ```
+
+**Base path**: `http://apiserver.com`
+
+**Endpoint**: `/homes`
+
+**Query string parameters**: `?limit=5&format=json`
 
 ***
 
