@@ -42,6 +42,8 @@ nav:
         - 'Mock surf report API documentation': 'mock-surf-report-api-documentation.md'                                                     
     - 'XML':
         - 'What is XML?': 'what-is-xml.md'
+        - 'What are tags and elements in XML?': 'what-are-tags-and-elements-in-xml.md'
+        - 'What are attributes in XML?': 'what-are-attributes-in-xml.md'
 theme: material
 markdown_extensions:
   - abbr

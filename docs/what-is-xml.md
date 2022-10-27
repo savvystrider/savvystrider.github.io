@@ -6,13 +6,18 @@ HTTP responses from REST APIs are often in either JSON or XML format; however, J
 
 XML handles data in two ways:
 
-1. **Tags**: Tags can be custom-defined by the author, which makes XML a data format that can be stored, searched, and shared. 
+1. **Tags**: Tags hold content. Tags can be custom-defined by the author, can then be stored, searched, and shared. 
 
 2. **Attributes**: Attributes indicate some property about data (*metadata*).
+
+!!! info
+
+    The "X" in XML stands for "Extensible," meaning that XML is a data format that is flexible and customizable. 
 
 *[XML]: Extensible Markup Language
 *[HTML]: HyperText Markup Language
 *[JSON]: JavaScript Object Notation
+*[HTTP]: Hypertext Markup Language
 
 ***
 
