@@ -64,7 +64,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#http-methods" class="md-skip">
+        <a href="#what-are-http-methods" class="md-skip">
           Skip to content
         </a>
       
@@ -441,6 +441,8 @@
       <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
       
       
+        
+      
       
         <label class="md-nav__link md-nav__link--active" for="__toc">
           What are HTTP methods?
@@ -456,6 +458,8 @@
 <nav class="md-nav md-nav--secondary" aria-label="Table of contents">
   
   
+  
+    
   
   
     <label class="md-nav__title" for="__toc">
@@ -473,9 +477,78 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
+  <a href="#get" class="md-nav__link">
+    GET
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#post" class="md-nav__link">
+    POST
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#put" class="md-nav__link">
+    PUT
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#delete" class="md-nav__link">
+    DELETE
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#head" class="md-nav__link">
+    HEAD
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#patch" class="md-nav__link">
+    PATCH
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#options" class="md-nav__link">
+    OPTIONS
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#connect" class="md-nav__link">
+    CONNECT
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#trace" class="md-nav__link">
+    TRACE
+  </a>
+  
+    <nav class="md-nav" aria-label="TRACE">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
   <a href="#sources" class="md-nav__link">
     Sources
   </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
         
@@ -898,6 +971,8 @@
   
   
   
+    
+  
   
     <label class="md-nav__title" for="__toc">
       <span class="md-nav__icon md-icon"></span>
@@ -914,9 +989,78 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
+  <a href="#get" class="md-nav__link">
+    GET
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#post" class="md-nav__link">
+    POST
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#put" class="md-nav__link">
+    PUT
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#delete" class="md-nav__link">
+    DELETE
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#head" class="md-nav__link">
+    HEAD
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#patch" class="md-nav__link">
+    PATCH
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#options" class="md-nav__link">
+    OPTIONS
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#connect" class="md-nav__link">
+    CONNECT
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#trace" class="md-nav__link">
+    TRACE
+  </a>
+  
+    <nav class="md-nav" aria-label="TRACE">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
   <a href="#sources" class="md-nav__link">
     Sources
   </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
         
@@ -940,51 +1084,50 @@
                   
 
 
-  <h1>What are HTTP methods?</h1>
-
+<h1 id="what-are-http-methods">What are <abbr title="Hyptertext Transfer Protocol">HTTP</abbr> methods?</h1>
 <p><strong><abbr title="Hyptertext Transfer Protocol">HTTP</abbr></strong> is a <em>request-response protocol</em> between a client and a server.</p>
 <p><strong><abbr title="Hyptertext Transfer Protocol">HTTP</abbr> methods</strong> indicate what action should be performed for requesting a specific resource.</p>
-<p>These methods are often called <em><abbr title="Hyptertext Transfer Protocol">HTTP</abbr> verbs</em>. The resource is the <em>noun</em>.</p>
+<p>These methods are also called <em><abbr title="Hyptertext Transfer Protocol">HTTP</abbr> verbs</em>. The resource is the <em>noun</em>.</p>
 <p><strong><abbr title="Create, Read, Update, Delete">CRUD</abbr></strong> refers to the ways that stored data can be operated.</p>
 <p>It also refers to the four basic functions of persistent storage and maps to the four major <abbr title="Hyptertext Transfer Protocol">HTTP</abbr> methods (see below).</p>
 <p><abbr title="Hyptertext Transfer Protocol">HTTP</abbr> request methods can be:</p>
 <ul>
 <li>
-<p><strong>Safe</strong>: does not alter the state of the server (read-only operation).</p>
+<p><strong>Safe</strong>: methods are safe if they do not alter the state of the server (read-only operation).</p>
 </li>
 <li>
-<p><strong>Idempotent</strong>: <abbr title="Hyptertext Transfer Protocol">HTTP</abbr> methods are idempotent if an identical request can be made (once or more) without changing the original result (i.e., no side effects).</p>
+<p><strong>Idempotent</strong>: methods are idempotent if an identical request can be made (once or more) without changing the original result (i.e., no side effects).</p>
 </li>
 <li>
-<p><strong>Cacheable</strong>: the <abbr title="Hyptertext Transfer Protocol">HTTP</abbr> response can be cached (stored for retrieval), saving a new request to the server.</p>
+<p><strong>Cacheable</strong>: methods can be cached (stored for retrieval), saving a new request to the server.</p>
 </li>
 </ul>
 <h2 id="http-methods"><abbr title="Hyptertext Transfer Protocol">HTTP</abbr> Methods</h2>
-<p><code>GET</code></p>
+<h3 id="get"><code>GET</code></h3>
 <p><strong>Read</strong> / <strong>request</strong> data from a resource.</p>
 <p>Safe / idempotent / cacheable</p>
-<p><code>POST</code></p>
+<h3 id="post"><code>POST</code></h3>
 <p><strong>Create</strong> a resource.</p>
 <p>Not safe / Not idempotent / Not cacheable</p>
-<p><code>PUT</code></p>
+<h3 id="put"><code>PUT</code></h3>
 <p><strong>Update</strong> a resource.</p>
 <p>Not safe / Idempotent / Not cacheable</p>
-<p><code>DELETE</code></p>
+<h3 id="delete"><code>DELETE</code></h3>
 <p><strong>Remove</strong> a resource.</p>
 <p>Not safe / Idempotent / Not cacheable</p>
-<p><code>HEAD</code></p>
+<h3 id="head"><code>HEAD</code></h3>
 <p><strong>Read</strong> / <strong>request</strong> data (same as <code>GET</code>) from a resource but without a response body.</p>
 <p>Safe / idempotent / cacheable</p>
-<p><code>PATCH</code></p>
+<h3 id="patch"><code>PATCH</code></h3>
 <p>Apply partial modifications to a resource.</p>
 <p>Not safe / Not idempotent / Not cacheable</p>
-<p><code>OPTIONS</code></p>
+<h3 id="options"><code>OPTIONS</code></h3>
 <p>Describe the communication options for a resource.</p>
 <p>Safe / Idempotent / Not cacheable</p>
-<p><code>CONNECT</code></p>
+<h3 id="connect"><code>CONNECT</code></h3>
 <p>Establish a tunnel to the server identified by a resource.</p>
 <p>Not safe / Not idempotent / Not cacheable</p>
-<p><code>TRACE</code></p>
+<h3 id="trace"><code>TRACE</code></h3>
 <p>Perform a message loop-back test along the path to a resource.</p>
 <p>Safe / Idempotent / Not cacheable</p>
 <hr />
