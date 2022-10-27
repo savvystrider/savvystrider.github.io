@@ -64,7 +64,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#structure-of-requests-and-responses" class="md-skip">
+        <a href="#what-are-http-messages" class="md-skip">
           Skip to content
         </a>
       
@@ -455,6 +455,8 @@
       <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
       
       
+        
+      
       
         <label class="md-nav__link md-nav__link--active" for="__toc">
           What are HTTP messages?
@@ -470,6 +472,8 @@
 <nav class="md-nav md-nav--secondary" aria-label="Table of contents">
   
   
+  
+    
   
   
     <label class="md-nav__title" for="__toc">
@@ -912,6 +916,8 @@
   
   
   
+    
+  
   
     <label class="md-nav__title" for="__toc">
       <span class="md-nav__icon md-icon"></span>
@@ -968,39 +974,31 @@
                   
 
 
-  <h1>What are HTTP messages?</h1>
-
-<p><strong>HTTP messages</strong> are how data is exchanged between a server and a client.</p>
+<h1 id="what-are-http-messages">What are <abbr title="Hypertext Transfer Protocol">HTTP</abbr> messages?</h1>
+<p><strong><abbr title="Hypertext Transfer Protocol">HTTP</abbr> messages</strong> are how data is exchanged between a server and a client.</p>
+<p>There are two types of <abbr title="Hypertext Transfer Protocol">HTTP</abbr> messages:</p>
 <ul>
 <li>
-<p>Two types of messages:</p>
+<p><strong><abbr title="Hypertext Transfer Protocol">HTTP</abbr> requests</strong>, sent by the client to trigger an action on the server.</p>
 </li>
 <li>
-<p><strong>requests</strong>, sent by the client to trigger an action on the server.</p>
-</li>
-<li>
-<p><strong>responses</strong>, the answer from the server.</p>
-</li>
-<li>
-<p>Clients and servers communicate by exchanging individual messages (as opposed to a stream of data). </p>
-</li>
-<li>
-<p>Messages are human-readable.</p>
+<p><strong><abbr title="Hypertext Transfer Protocol">HTTP</abbr> responses</strong>, the answer from the server.</p>
 </li>
 </ul>
+<p>Clients and servers communicate by exchanging individual messages (as opposed to a stream of data). The messages are human-readable.</p>
 <h2 id="structure-of-requests-and-responses">Structure of requests and responses</h2>
 <figure>
 <p><img alt="HTTP message structure" src="https://developer.mozilla.org/en-US/docs/Web/HTTP/Messages/httpmsgstructure2.png" />
   </p>
 <figcaption>Source: MDN Web Docs</figcaption>
 </figure>
-<p>HTTP requests and responses share a similar structure and include:</p>
+<p><abbr title="Hypertext Transfer Protocol">HTTP</abbr> requests and responses share a similar structure and include:</p>
 <ol>
 <li>
 <p>a <strong>start-line</strong> that describes the request being made, or its success status. Always a single line.</p>
 </li>
 <li>
-<p>optional HTTP <strong>headers</strong> for specifying the request or describing the body included in the message.</p>
+<p>optional <abbr title="Hypertext Transfer Protocol">HTTP</abbr> <strong>headers</strong> for specifying the request or describing the body included in the message.</p>
 <p>Header fields are key-value pairs separated by colons.</p>
 </li>
 <li>
@@ -1010,42 +1008,42 @@
 <p>an optional <strong>body</strong> that contains data associated with the request or the document associated with the response.</p>
 </li>
 </ol>
-<hr />
-<h2 id="http-request">HTTP Request</h2>
+<h2 id="http-request"><abbr title="Hypertext Transfer Protocol">HTTP</abbr> Request</h2>
 <figure>
 <p><img alt="HTTP request" src="https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview/http_request.png" />
   </p>
 <figcaption>Source: MDN Web Docs</figcaption>
 </figure>
-<p><strong>HTTP Method</strong></p>
-<p>Defines the operation the client wants to perform. Options include:
-- <code>GET</code>
-- <code>POST</code>
-- <code>PUT</code>
-- <code>DELETE</code></p>
+<p><strong><abbr title="Hypertext Transfer Protocol">HTTP</abbr> Method</strong></p>
+<p>Defines the operation the client wants to perform. Options include:</p>
+<ul>
+<li><code>GET</code></li>
+<li><code>POST</code></li>
+<li><code>PUT</code></li>
+<li><code>DELETE</code></li>
+</ul>
 <p><strong>Path</strong></p>
 <p>The path of the requested resource.</p>
 <p><strong>Version</strong></p>
-<p>Version of HTTP protocol</p>
+<p>Version of <abbr title="Hypertext Transfer Protocol">HTTP</abbr> protocol</p>
 <p><strong>Headers</strong></p>
 <p>Optional headers to convey additional information for the servers</p>
 <p><strong>Body</strong></p>
 <p>A <code>POST</code> method would contain the resource being sent to the server.</p>
-<hr />
-<h2 id="http-response">HTTP Response</h2>
+<h2 id="http-response"><abbr title="Hypertext Transfer Protocol">HTTP</abbr> Response</h2>
 <figure>
 <p><img alt="HTTP response" src="https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview/http_response.png" />
   </p>
 <figcaption>Source: MDN Web Docs</figcaption>
 </figure>
 <p><strong>Version</strong></p>
-<p>Version of HTTP protocol</p>
+<p>Version of <abbr title="Hypertext Transfer Protocol">HTTP</abbr> protocol</p>
 <p><strong>Status code</strong></p>
-<p>Indicates whether a specific HTTP request has been successfully completed.</p>
+<p>Indicates whether a specific <abbr title="Hypertext Transfer Protocol">HTTP</abbr> request has been successfully completed.</p>
 <p><strong>Status message</strong></p>
 <p>A non-authoritative short description of the status code.</p>
 <p><strong>Headers</strong></p>
-<p>HTTP headers, like those for requests.</p>
+<p><abbr title="Hypertext Transfer Protocol">HTTP</abbr> headers, like those for requests.</p>
 <p>Header fields are key-value pairs separated by colons.</p>
 <p><strong>Body</strong></p>
 <p>Optional. Contains the fetched resource.</p>

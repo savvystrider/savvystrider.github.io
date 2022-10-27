@@ -64,7 +64,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#status-line" class="md-skip">
+        <a href="#what-are-http-responses" class="md-skip">
           Skip to content
         </a>
       
@@ -483,6 +483,8 @@
       <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
       
       
+        
+      
       
         <label class="md-nav__link md-nav__link--active" for="__toc">
           What are HTTP responses?
@@ -498,6 +500,8 @@
 <nav class="md-nav md-nav--secondary" aria-label="Table of contents">
   
   
+  
+    
   
   
     <label class="md-nav__title" for="__toc">
@@ -912,6 +916,8 @@
   
   
   
+    
+  
   
     <label class="md-nav__title" for="__toc">
       <span class="md-nav__icon md-icon"></span>
@@ -968,19 +974,24 @@
                   
 
 
-  <h1>What are HTTP responses?</h1>
-
+<h1 id="what-are-http-responses">What are HTTP responses?</h1>
+<p><strong>HTTP responses</strong> are messages from a server to the client, which can include a representation of a resource, a success message, or an error message.</p>
 <h2 id="status-line">Status Line</h2>
-<p>The <strong>status line</strong> is the first/starting line of an HTTP response. It contains the following information:
-- the protocol version.
-- a status code, which indicates success or failure of the request.
-- a status text, which provides a text description.</p>
+<p>The <strong>status line</strong> is the first/starting line of an HTTP response. It contains the following information:</p>
+<ul>
+<li>the protocol version.</li>
+<li>a status code, which indicates success or failure of the request.</li>
+<li>a status text, which provides a text description.</li>
+</ul>
 <p>A typical status line looks like this: <code>HTTP/1.1 404 Not Found</code></p>
 <h2 id="headers">Headers</h2>
-<p><img alt="HTTP response headers" src="https://developer.mozilla.org/en-US/docs/Web/HTTP/Messages/http_response_headers3.png" /></p>
+<figure>
+<p><img alt="HTTP response headers" src="https://developer.mozilla.org/en-US/docs/Web/HTTP/Messages/http_response_headers3.png" />
+  </p>
+<figcaption>Source: MDN Web Docs</figcaption>
+</figure>
 <p><strong>HTTP headers</strong> let the client and the server pass additional information with an HTTP request or response.</p>
-<p>Headers are in key-value pairs separated by a colon. Example:</p>
-<p><code>key</code>: <code>value</code></p>
+<p>Headers are in key-value pairs separated by a colon.</p>
 <p>A <strong>representation header</strong> is a type of HTTP header that describes the particular representation of the resource sent in an HTTP message body. Example:</p>
 <p><code>Content-Length</code>: <code>100</code></p>
 <h2 id="body">Body</h2>

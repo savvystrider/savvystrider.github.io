@@ -64,7 +64,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#scheme-or-protocol" class="md-skip">
+        <a href="#the-syntax-of-uris" class="md-skip">
           Skip to content
         </a>
       
@@ -497,6 +497,8 @@
       <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
       
       
+        
+      
       
         <label class="md-nav__link md-nav__link--active" for="__toc">
           The syntax of URIs
@@ -512,6 +514,8 @@
 <nav class="md-nav md-nav--secondary" aria-label="Table of contents">
   
   
+  
+    
   
   
     <label class="md-nav__title" for="__toc">
@@ -933,6 +937,8 @@
   
   
   
+    
+  
   
     <label class="md-nav__title" for="__toc">
       <span class="md-nav__icon md-icon"></span>
@@ -1010,54 +1016,59 @@
                   
 
 
-  <h1>The syntax of URIs</h1>
-
+<h1 id="the-syntax-of-uris">The syntax of URIs</h1>
 <p>A <strong><abbr title="Uniform Resource Indicator">URI</abbr></strong> is a string that refers to a resource.</p>
 <p>The most common URIs are <strong>URLs</strong>, which identify the resource by giving its location on the Web.</p>
 <p>A <abbr title="Uniform Resource Locator">URL</abbr> is composed of different parts; some are mandatory and others are optional.</p>
-<h3 id="scheme-or-protocol">Scheme or protocol</h3>
-<blockquote>
+<h2 id="scheme-or-protocol">Scheme or protocol</h2>
+<div class="admonition example">
+<p class="admonition-title">Example</p>
 <p><code>http://example.com</code></p>
-</blockquote>
+</div>
 <p><code>http://</code> is the <em>protocol</em>.</p>
 <p>It indicates which protocol (HTTP or HTTPS) the browser must use.</p>
-<h3 id="authority">Authority</h3>
-<blockquote>
+<h2 id="authority">Authority</h2>
+<div class="admonition example">
+<p class="admonition-title">Example</p>
 <p><code>http://example.com</code></p>
-</blockquote>
+</div>
 <p><code>www.example.com</code> is the domain name, or <em>authority</em>, that governs the namespace.</p>
 <p>It indicates which Web server is being requested.</p>
-<h3 id="port">Port</h3>
-<blockquote>
+<h2 id="port">Port</h2>
+<div class="admonition example">
+<p class="admonition-title">Example</p>
 <p><code>http://www.example.com:80/path</code></p>
-</blockquote>
+</div>
 <p><code>:80</code> is the <em>port</em>.</p>
 <ul>
 <li>It indicates the technical "gate" used to access the resources on the web server.</li>
 <li>It is usually omitted if the web server uses the standard ports of the HTTP protocol (80 for HTTP and 443 for HTTPS) to grant access to its resources.</li>
 </ul>
-<h3 id="path">Path</h3>
-<blockquote>
+<h2 id="path">Path</h2>
+<div class="admonition example">
+<p class="admonition-title">Example</p>
 <p><code>http://www.example.com:80/path/to/myfile.html?key1=value1</code></p>
-</blockquote>
+</div>
 <p><code>/path/to/myfile.html</code> is the <em>path</em> to the resource on the Web server.</p>
 <p>Previously, a path like this represented a physical file location on a web server. Now, it is mostly an abstraction handled by web servers without any physical reality.</p>
-<h3 id="query">Query</h3>
-<blockquote>
+<h2 id="query">Query</h2>
+<div class="admonition example">
+<p class="admonition-title">Example</p>
 <p><code>http://www.example.com:80/path/to/myfile.html?key1=value1&amp;key2=value2</code></p>
-</blockquote>
-<p><code>key1=value1&amp;key2=value2</code> are extra <em>parameters</em> provided to the web server.</p>
+</div>
 <ul>
+<li><code>key1=value1&amp;key2=value2</code> are extra <em>parameters</em> provided to the web server.</li>
 <li>The parameters are a list of key/value pairs separated with the <code>&amp;</code> symbol.<ul>
 <li>Parameters define the search criteria used by the server to find a set of matching resources. </li>
 </ul>
 </li>
 <li>The <code>?</code> before the key/value pairs indicates the start of the <em>query string</em>.</li>
 </ul>
-<h3 id="fragment">Fragment</h3>
-<blockquote>
+<h2 id="fragment">Fragment</h2>
+<div class="admonition example">
+<p class="admonition-title">Example</p>
 <p><code>http://www.example.com:80/path/to/myfile.html?key1=value1&amp;key2=value2#SomewhereInTheDocument</code></p>
-</blockquote>
+</div>
 <p><code>#SomewhereInTheDocument</code> is an anchor to another part of the resource itself.</p>
 <p>An anchor is similar to a "bookmark" inside the resource, giving the browser the directions to show the content located at that "bookmarked" spot.</p>
 <hr />

@@ -64,7 +64,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#start-line" class="md-skip">
+        <a href="#what-are-http-requests" class="md-skip">
           Skip to content
         </a>
       
@@ -469,6 +469,8 @@
       <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
       
       
+        
+      
       
         <label class="md-nav__link md-nav__link--active" for="__toc">
           What are HTTP requests?
@@ -484,6 +486,8 @@
 <nav class="md-nav md-nav--secondary" aria-label="Table of contents">
   
   
+  
+    
   
   
     <label class="md-nav__title" for="__toc">
@@ -912,6 +916,8 @@
   
   
   
+    
+  
   
     <label class="md-nav__title" for="__toc">
       <span class="md-nav__icon md-icon"></span>
@@ -968,35 +974,51 @@
                   
 
 
-  <h1>What are HTTP requests?</h1>
-
+<h1 id="what-are-http-requests">What are HTTP requests?</h1>
 <p><strong>HTTP requests</strong> are messages sent by the client to initiate an action on the server.</p>
 <h2 id="start-line">Start-line</h2>
 <p>The start-line of HTTP requests contains three elements:</p>
 <p><strong>1. HTTP method</strong></p>
-<p>HTTP verbs indicate the action to be performed. These actions include:
-- <code>GET</code>: fetch a resource
-- <code>POST</code>: push data to the server to create a new resource
-- <code>DELETE</code>: delete a resource from the server
-- <code>PUT</code>: update a resource on the server</p>
+<p>HTTP verbs indicate the action to be performed. These actions include:</p>
+<ul>
+<li><code>GET</code>: fetch a resource</li>
+<li><code>POST</code>: push data to the server to create a new resource</li>
+<li><code>DELETE</code>: delete a resource from the server</li>
+<li><code>PUT</code>: update a resource on the server</li>
+</ul>
 <p><strong>2. Request target</strong></p>
-<p>Target is usually a URL. Options include:
-- Absolute path followed by a <code>?</code> and query string.
-    - This is the most common form and is used with HTTP methods.
-- Complete URL (absolute form)
-    - Mostly used with <code>GET</code> when connected to a proxy.
-- Authority component of URL
-    - Consists of the domain name and the port (optional).
-- Asterisk form
-    - A simple asterisk (<code>*</code>) used with <code>OPTIONS</code>, representing the server as a whole.</p>
+<p>Target is usually a URL. Options include:</p>
+<ul>
+<li>Absolute path followed by a <code>?</code> and query string.<ul>
+<li>This is the most common form and is used with HTTP methods.</li>
+</ul>
+</li>
+<li>Complete URL (absolute form)<ul>
+<li>Mostly used with <code>GET</code> when connected to a proxy.</li>
+</ul>
+</li>
+<li>Authority component of URL<ul>
+<li>Consists of the domain name and the port (optional).</li>
+</ul>
+</li>
+<li>Asterisk form<ul>
+<li>A simple asterisk (<code>*</code>) used with <code>OPTIONS</code>, representing the server as a whole.</li>
+</ul>
+</li>
+</ul>
 <p><strong>3. HTTP version</strong></p>
 <p>Defines the structure of the remaining message, acting as an indicator of the expected version to use for the response.</p>
 <h2 id="headers">Headers</h2>
-<p><img alt="HTTP request headers" src="https://developer.mozilla.org/en-US/docs/Web/HTTP/Messages/http_request_headers3.png" /></p>
+<figure>
+<p><img alt="HTTP request headers" src="https://developer.mozilla.org/en-US/docs/Web/HTTP/Messages/http_request_headers3.png" />
+  </p>
+<figcaption>Source: MDN Web Docs</figcaption>
+</figure>
 <p><strong>HTTP headers</strong> let the client and the server pass additional information with an HTTP request or response.</p>
 <p>A <strong>request header</strong> is a type of HTTP header that can be used in a request to provide information about the request context, so that the server can tailor the response.</p>
 <p>Headers are in key-value pairs separated by a colon.</p>
-<p>A <strong>representation header</strong> is a type of HTTP header that describes the particular representation of the resource sent in an HTTP message body. Example:</p>
+<p>A <strong>representation header</strong> is a type of HTTP header that describes the particular representation of the resource sent in an HTTP message body.</p>
+<p>Example:</p>
 <p><code>Content-Length</code>: <code>100</code></p>
 <h2 id="body">Body</h2>
 <p>The <strong>body</strong> is the final part of an HTTP request. Not all requests need one, such as <code>GET</code>, <code>HEAD</code>, <code>DELETE</code>, or <code>OPTIONS</code>.</p>
