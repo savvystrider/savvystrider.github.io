@@ -8,14 +8,14 @@
       
       
       
-        <link rel="canonical" href="https://savvystrider.github.io/about/">
+        <link rel="canonical" href="https://savvystrider.github.io/what-are-attributes-in-xml/">
       
       <link rel="icon" href="../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.4.1, mkdocs-material-8.5.7">
     
     
       
-        <title>About - Manish writes about it...</title>
+        <title>What are attributes in XML? - Manish writes about it...</title>
       
     
     
@@ -64,7 +64,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#about" class="md-skip">
+        <a href="#what-are-attributes-in-xml" class="md-skip">
           Skip to content
         </a>
       
@@ -97,7 +97,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              About
+              What are attributes in XML?
             
           </span>
         </div>
@@ -196,21 +196,11 @@
 
   
   
-    
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../about/" class="md-nav__link">
         About
       </a>
-      
     </li>
   
 
@@ -845,12 +835,14 @@
 
   
   
+    
+  
   
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_9" type="checkbox" id="__nav_9" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_9" type="checkbox" id="__nav_9" checked>
       
       
       
@@ -899,11 +891,52 @@
               
   
   
+    
   
-    <li class="md-nav__item">
-      <a href="../what-are-attributes-in-xml/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          What are attributes in XML?
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         What are attributes in XML?
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#sources" class="md-nav__link">
+    Sources
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -935,6 +968,21 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#sources" class="md-nav__link">
+    Sources
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -948,44 +996,35 @@
                   
 
 
-<h1 id="about">About</h1>
-<p>This is a website I made with Material for MkDocs, Git, GitHub, GitHub Pages, Visual Studio Code, and Markdown.</p>
-<p>This website is primarily about the study of REST APIs and REST API documentation; however, many other topics are covered, including:</p>
+<h1 id="what-are-attributes-in-xml">What are attributes in <abbr title="Extensible Markup Language">XML</abbr>?</h1>
+<p>Tags in <abbr title="Extensible Markup Language">XML</abbr> hold content. The tags can also have attributes as a way of holding simple data. <strong>Attributes</strong> contain data related to specific elements in key-value pairs.</p>
+<p>Attributes appear in the start tag:</p>
+<div class="admonition example">
+<p class="admonition-title">Example</p>
+<div class="highlight"><pre><span></span><code><span class="nt">&lt;tag</span> <span class="na">key=</span><span class="s">&quot;value&quot;</span><span class="nt">&gt;</span>content<span class="nt">&lt;/tag&gt;</span>
+</code></pre></div>
+</div>
+<p>In the above example:</p>
 <ul>
-<li>
-<p>APIs (in general)</p>
-</li>
-<li>
-<p>Postman</p>
-</li>
-<li>
-<p>Git</p>
-</li>
-<li>
-<p>GitHub</p>
-</li>
-<li>
-<p>Static site generators</p>
-</li>
-<li>
-<p>Markdown</p>
-</li>
-<li>
-<p>JSON</p>
-</li>
-<li>
-<p>XML</p>
-</li>
-<li>
-<p>cURL</p>
-</li>
-<li>
-<p>and more!</p>
-</li>
+<li><code>&lt;tag</code> is the start tag.</li>
+<li><code>key</code> is the attribute.</li>
+<li><code>value</code> is the value of the attribute.</li>
+<li><code>content</code> is the content between the start and end tags.</li>
+<li><code>/tag&gt;</code> is the end tag.</li>
 </ul>
-<p>My study of REST APIs began with the course <a href="https://idratherbewriting.com/learnapidoc/">Documenting APIs: A guide for technical writers and engineers</a> by fellow technical writer Tom Johnson.</p>
-<p>It then expanded to the course <a href="https://www.udemy.com/course/api-documentation-1-json-and-xml/">Learn API Technical Writing: JSON and XML for Writers</a> by Peter Gruenbaum.</p>
-<p>After that, things got pretty crazy.</p>
+<div class="admonition example">
+<p class="admonition-title">Example</p>
+<div class="highlight"><pre><span></span><code><span class="nt">&lt;fileSize</span> <span class="na">unit=</span><span class="s">&quot;kB&quot;</span><span class="nt">&gt;</span>34.6<span class="nt">&lt;/fileSize&gt;</span>
+</code></pre></div>
+</div>
+<p>In the above example, the attribute is named <code>unit</code> and its value is <code>kB</code>.</p>
+<hr />
+<h5 id="sources">Sources</h5>
+<ul>
+<li><a href="https://developer.mozilla.org/en-US/">MDN Web Docs</a></li>
+<li><a href="https://www.udemy.com/course/api-documentation-1-json-and-xml/">Learn API Technical Writing: <abbr title="JavaScript Object Notation">JSON</abbr> and <abbr title="Extensible Markup Language">XML</abbr> for Writers</a> by Peter Gruenbaum</li>
+<li><a href="https://www.w3schools.com/xml/default.asp">W3 Schools</a></li>
+</ul>
 
 
 
@@ -1006,7 +1045,7 @@
     <nav class="md-footer__inner md-grid" aria-label="Footer" >
       
         
-        <a href=".." class="md-footer__link md-footer__link--prev" aria-label="Previous: Home" rel="prev">
+        <a href="../what-are-tags-and-elements-in-xml/" class="md-footer__link md-footer__link--prev" aria-label="Previous: What are tags and elements in XML?" rel="prev">
           <div class="md-footer__button md-icon">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
           </div>
@@ -1015,26 +1054,11 @@
               <span class="md-footer__direction">
                 Previous
               </span>
-              Home
+              What are tags and elements in XML?
             </div>
           </div>
         </a>
       
-      
-        
-        <a href="../what-is-an-api/" class="md-footer__link md-footer__link--next" aria-label="Next: What are APIs?" rel="next">
-          <div class="md-footer__title">
-            <div class="md-ellipsis">
-              <span class="md-footer__direction">
-                Next
-              </span>
-              What are APIs?
-            </div>
-          </div>
-          <div class="md-footer__button md-icon">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"/></svg>
-          </div>
-        </a>
       
     </nav>
   

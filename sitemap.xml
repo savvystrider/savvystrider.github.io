@@ -86,6 +86,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://savvystrider.github.io/what-are-attributes-in-xml/</loc>
+         <lastmod>2022-10-27</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://savvystrider.github.io/what-are-basic-json-data-types/</loc>
          <lastmod>2022-10-27</lastmod>
          <changefreq>daily</changefreq>
@@ -112,6 +117,11 @@
     </url>
     <url>
          <loc>https://savvystrider.github.io/what-are-http-responses/</loc>
+         <lastmod>2022-10-27</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://savvystrider.github.io/what-are-tags-and-elements-in-xml/</loc>
          <lastmod>2022-10-27</lastmod>
          <changefreq>daily</changefreq>
     </url>
