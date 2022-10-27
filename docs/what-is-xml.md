@@ -6,7 +6,7 @@ HTTP responses from REST APIs are often in either JSON or XML format; however, J
 
 XML handles data in two ways:
 
-1. **Tags**: Tags hold content. Tags can be custom-defined by the author, can then be stored, searched, and shared. 
+1. **Tags**: Tags are "markup" that hold content. Tags start with `<` and end with `/>` (usually).
 
 2. **Attributes**: Attributes indicate some property about data (*metadata*).
 
