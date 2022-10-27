@@ -31,53 +31,55 @@ To use this API, you must create an account and create an `API key`.
 
 8. Click **Send**.
 
+!!! success
+
     The response (in JSON) appears in the lower pane:
 
-```json
-{
-   "coord":{
-      "lon":-80.7387,
-      "lat":35.244
-   },
-   "weather":[
-      {
-         "id":803,
-         "main":"Clouds",
-         "description":"broken clouds",
-         "icon":"04d"
-      }
-   ],
-   "base":"stations",
-   "main":{
-      "temp":56.53,
-      "feels_like":55.74,
-      "temp_min":54.23,
-      "temp_max":59.4,
-      "pressure":1026,
-      "humidity":82
-   },
-   "visibility":10000,
-   "wind":{
-      "speed":8.05,
-      "deg":10
-   },
-   "clouds":{
-      "all":75
-   },
-   "dt":1665408709,
-   "sys":{
-      "type":2,
-      "id":2011045,
-      "country":"US",
-      "sunrise":1665401084,
-      "sunset":1665442490
-   },
-   "timezone":-14400,
-   "id":0,
-   "name":"Charlotte",
-   "cod":200
-}
-```
+   ```json
+   {
+      "coord":{
+         "lon":-80.7387,
+         "lat":35.244
+      },
+      "weather":[
+         {
+            "id":803,
+            "main":"Clouds",
+            "description":"broken clouds",
+            "icon":"04d"
+         }
+      ],
+      "base":"stations",
+      "main":{
+         "temp":56.53,
+         "feels_like":55.74,
+         "temp_min":54.23,
+         "temp_max":59.4,
+         "pressure":1026,
+         "humidity":82
+      },
+      "visibility":10000,
+      "wind":{
+         "speed":8.05,
+         "deg":10
+      },
+      "clouds":{
+         "all":75
+      },
+      "dt":1665408709,
+      "sys":{
+         "type":2,
+         "id":2011045,
+         "country":"US",
+         "sunrise":1665401084,
+         "sunset":1665442490
+      },
+      "timezone":-14400,
+      "id":0,
+      "name":"Charlotte",
+      "cod":200
+   }
+   ```
 
 ## How to make the same request with curl
 
