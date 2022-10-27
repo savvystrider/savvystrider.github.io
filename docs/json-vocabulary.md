@@ -1,7 +1,8 @@
 ### Array
-An ordered sequence of values separated by commas and enclosed in brackets: **[]**.
+An ordered sequence of values separated by commas and enclosed in brackets: **[ ]**.
 
 !!! example
+
     ```json
     [4, 8, 15, 16, 23, 42]
     ```
@@ -20,6 +21,7 @@ Layers of arrays and objects.
 
 !!! example
 
+    ```json
     [
 	{"header": "File",
 	"items": [
@@ -34,16 +36,19 @@ Layers of arrays and objects.
 		{"id": "OriginalView", "label": "Original View"}
 		]}
     ]
+    ```
 
 ### Null
 "Nothing." An empty value.
 
 ### Object
-Key-value pairs separated by a colon and enclosed in curly braces/brackets: **{}**.
+Unordered key-value pairs separated by a colon and enclosed in curly braces/brackets: **{}**.
 
 !!! example
 
+    ```json
     {firstName: "Manish", favoriteFood: "pizza", favoriteColor: "blue"}
+    ```
 
 ### String
 Text enclosed in double-quotation marks.
