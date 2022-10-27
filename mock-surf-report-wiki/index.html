@@ -917,22 +917,25 @@
   <h1>Mock surf report wiki</h1>
 
 <p>The new endpoint is <code>/surfreport/{beachId}</code>. This endpoint is for surfers who want to check things like tide and wave conditions to determine whether they should head out to the beach to surf. <code>{beachId}</code> is retrieved from a list of beaches on our site.</p>
-<p>Optional parameters:
-- Number of days: Max is 7. Default is 3. Optional.
-- Units: imperial or metric. With imperial, you get feet and knots. With metric, you get centimeters and kilometers per hour. Optional.
-- Time: time of the day corresponding to time zone of the beach you're inquiring about. Format is unix time, aka epoch. Unix time is the milliseconds since 1970. Time zone is GMT or UTC. Optional.</p>
+<p>Optional parameters:</p>
+<ul>
+<li>Number of days: Max is 7. Default is 3. Optional.</li>
+<li>Units: imperial or metric. With imperial, you get feet and knots. With metric, you get centimeters and kilometers per hour. Optional.</li>
+<li>Time: time of the day corresponding to time zone of the beach you're inquiring about. Format is unix time, aka epoch. Unix time is the milliseconds since 1970. Time zone is GMT or UTC. Optional.</li>
+</ul>
 <p>If you include the hour, then you only get back the surf condition for the hour you specified. Otherwise, you get back 3 days, with conditions listed out by hour for each day.</p>
 <p>The response will include the surf height, the wind, temp, the tide, and overall recommendation.</p>
 <p>Sample endpoint with parameters:</p>
-<pre><code>    https://api.openweathermap.org/com/surfreport/123?&amp;days=2&amp;units=metrics&amp;hour=1400
-</code></pre>
+<p><code>https://api.openweathermap.org/com/surfreport/123?&amp;days=2&amp;units=metrics&amp;hour=1400</code></p>
 <p>The response contains these elements:</p>
-<p>surfreport:
-- surfheight (units: feet)
-- wind (units: kts)
-- tide (units: feet)
-- water temperature (units: F degrees)
-- recommendation - string ("Go surfing!", "Surfing conditions okay, not great", "Not today -- try some other activity.")</p>
+<p>surfreport:</p>
+<ul>
+<li>surfheight (units: feet)</li>
+<li>wind (units: kts)</li>
+<li>tide (units: feet)</li>
+<li>water temperature (units: F degrees)</li>
+<li>recommendation - string ("Go surfing!", "Surfing conditions okay, not great", "Not today -- try some other activity.")</li>
+</ul>
 <p>The recommendation is based on an algorithm that takes optimal surfing conditions, scores them in a rubric, and includes one of three responses.</p>
 <p>Sample format:</p>
 <div class="highlight"><pre><span></span><code><span class="p">{</span><span class="w"></span>
