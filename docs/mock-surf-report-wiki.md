@@ -1,6 +1,7 @@
 The new endpoint is `/surfreport/{beachId}`. This endpoint is for surfers who want to check things like tide and wave conditions to determine whether they should head out to the beach to surf. `{beachId}` is retrieved from a list of beaches on our site.
 
 Optional parameters:
+
 - Number of days: Max is 7. Default is 3. Optional.
 - Units: imperial or metric. With imperial, you get feet and knots. With metric, you get centimeters and kilometers per hour. Optional.
 - Time: time of the day corresponding to time zone of the beach you're inquiring about. Format is unix time, aka epoch. Unix time is the milliseconds since 1970. Time zone is GMT or UTC. Optional.
@@ -11,11 +12,12 @@ The response will include the surf height, the wind, temp, the tide, and overall
 
 Sample endpoint with parameters:
 
-        https://api.openweathermap.org/com/surfreport/123?&days=2&units=metrics&hour=1400
+`https://api.openweathermap.org/com/surfreport/123?&days=2&units=metrics&hour=1400`
 
 The response contains these elements:
 
 surfreport:
+
 - surfheight (units: feet)
 - wind (units: kts)
 - tide (units: feet)
