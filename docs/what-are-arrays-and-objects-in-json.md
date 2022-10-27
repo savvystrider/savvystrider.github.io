@@ -1,8 +1,8 @@
+# What are arrays and objects in JSON?
+
 JSON has two types of basic structures: **arrays** and **objects**.
 
-***
-
-### What is an array?
+## What is an array?
 
 An **array** is an *ordered* sequence of zero or more values enclosed in brackets `[]` and separated by commas.
 
@@ -23,12 +23,6 @@ An **array** is an *ordered* sequence of zero or more values enclosed in bracket
 ```json
 [65, "toast", true, 21, null, 100]
 ```
-
-{{< alert >}}
-Data values can be mixed.
-{{< /alert >}}
-
-***
 
 ## What is an object?
 

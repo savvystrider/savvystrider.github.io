@@ -3,7 +3,11 @@ The basic data types in JSON are referred to as **values**.
 ### Strings
 Text enclosed in double-quotation marks.
 
-`"example"`
+!!! example
+
+    ```json
+    "example"
+    ```
 
 ### Numbers
 - Integer (whole) or decimal
@@ -11,19 +15,32 @@ Text enclosed in double-quotation marks.
 - Zero
 - No quotation marks
 
-`[1, 2.5, 0, 382]`
+!!! example
+
+    ```json
+    [1, 2.5, 0, 382]
+    ```
 
 ### Booleans
 - True or false
 - No quotation marks
 
-`[true, false, false, true]`
+!!! example
+
+    ```json
+    [true, false, false, true]
+    ```
 
 ### Null
+
 - Means "nothing"
 - No quotation marks
 
-`[null]`
+!!! example
+
+    ```json
+    [null]
+    ```
 
 ***
 
