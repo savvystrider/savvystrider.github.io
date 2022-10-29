@@ -26,6 +26,32 @@ In the above example:
 
 In the above example, the attribute is named `unit` and its value is `kB`.
 
+## Using attributes to describe song data
+
+Let's say we have the following XML code to describe song data:
+
+```xml
+<song>
+    <title>XML Waltz</title>
+    <artist>The Extensible Extenders</artist>
+    <musicians>
+        <musician>Sally Flute</musician>
+        <musician>Derek Windpipe</musician>
+    </musicians>
+</song>
+```
+
+In the example above, the first tag is for `<song>` and contains multiple tags nested beneath it. We can restructure this data using attributes:
+
+```xml
+<song title="XML Waltz" artist="The Extensible Extenders">
+    <musicians>
+        <musician name="Sally Flute"/>
+        <musician name="Derek Windpipe"/>
+    </musicians>
+</song>
+```
+
 *[XML]: Extensible Markup Language
 *[HTML]: HyperText Markup Language
 *[JSON]: JavaScript Object Notation
