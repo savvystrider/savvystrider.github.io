@@ -927,9 +927,22 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#using-attributes-to-describe-song-data" class="md-nav__link">
+    Using attributes to describe song data
+  </a>
+  
+    <nav class="md-nav" aria-label="Using attributes to describe song data">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
   <a href="#sources" class="md-nav__link">
     Sources
   </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -964,6 +977,20 @@
     <li class="md-nav__item">
       <a href="../using-xml-to-document-weather-forecast/" class="md-nav__link">
         Using XML to document a weather forecast
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../using-xml-to-document-request-to-record-TV-program/" class="md-nav__link">
+        Using XML to document a request to record a TV program
       </a>
     </li>
   
@@ -1017,9 +1044,22 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#using-attributes-to-describe-song-data" class="md-nav__link">
+    Using attributes to describe song data
+  </a>
+  
+    <nav class="md-nav" aria-label="Using attributes to describe song data">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
   <a href="#sources" class="md-nav__link">
     Sources
   </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -1060,6 +1100,25 @@
 </code></pre></div>
 </div>
 <p>In the above example, the attribute is named <code>unit</code> and its value is <code>kB</code>.</p>
+<h2 id="using-attributes-to-describe-song-data">Using attributes to describe song data</h2>
+<p>Let's say we have the following <abbr title="Extensible Markup Language">XML</abbr> code to describe song data:</p>
+<div class="highlight"><pre><span></span><code><span class="nt">&lt;song&gt;</span>
+    <span class="nt">&lt;title&gt;</span>XML Waltz<span class="nt">&lt;/title&gt;</span>
+    <span class="nt">&lt;artist&gt;</span>The Extensible Extenders<span class="nt">&lt;/artist&gt;</span>
+    <span class="nt">&lt;musicians&gt;</span>
+        <span class="nt">&lt;musician&gt;</span>Sally Flute<span class="nt">&lt;/musician&gt;</span>
+        <span class="nt">&lt;musician&gt;</span>Derek Windpipe<span class="nt">&lt;/musician&gt;</span>
+    <span class="nt">&lt;/musicians&gt;</span>
+<span class="nt">&lt;/song&gt;</span>
+</code></pre></div>
+<p>In the example above, the first tag is for <code>&lt;song&gt;</code> and contains multiple tags nested beneath it. We can restructure this data using attributes:</p>
+<div class="highlight"><pre><span></span><code><span class="nt">&lt;song</span> <span class="na">title=</span><span class="s">&quot;XML Waltz&quot;</span> <span class="na">artist=</span><span class="s">&quot;The Extensible Extenders&quot;</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;musicians&gt;</span>
+        <span class="nt">&lt;musician</span> <span class="na">name=</span><span class="s">&quot;Sally Flute&quot;</span><span class="nt">/&gt;</span>
+        <span class="nt">&lt;musician</span> <span class="na">name=</span><span class="s">&quot;Derek Windpipe&quot;</span><span class="nt">/&gt;</span>
+    <span class="nt">&lt;/musicians&gt;</span>
+<span class="nt">&lt;/song&gt;</span>
+</code></pre></div>
 <hr />
 <h5 id="sources">Sources</h5>
 <ul>
