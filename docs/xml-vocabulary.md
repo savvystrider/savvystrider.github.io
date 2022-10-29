@@ -1,15 +1,26 @@
-### Attribute
+### Attributes
+Attributes contain data related to specific elements in key-value pairs.
 
 ### Content
+Data stored in between markup tags.
 
 ### Element
+Tags and the content within tags.
 
 ### Namespaces
+Namespaces help uniquely identify tags. The namespace acts as a "prefix" to a tag.
+
+!!! example
+
+    ```xml
+    <education:onlineCourse>
+    ```
 
 ### Tags
+Markup that holds content. Tags start with `<` and, usually, end with `/>`.
 
 ### XML
-
+A markup language for structured data. XML is similar to HTML, but does not have predefined tags.
 
 
 *[XML]: Extensible Markup Language
