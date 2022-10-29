@@ -51,6 +51,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://savvystrider.github.io/git-vocabulary/</loc>
+         <lastmod>2022-10-29</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://savvystrider.github.io/http-vocabulary/</loc>
          <lastmod>2022-10-29</lastmod>
          <changefreq>daily</changefreq>
@@ -157,6 +162,11 @@
     </url>
     <url>
          <loc>https://savvystrider.github.io/what-is-curl/</loc>
+         <lastmod>2022-10-29</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://savvystrider.github.io/what-is-git/</loc>
          <lastmod>2022-10-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
