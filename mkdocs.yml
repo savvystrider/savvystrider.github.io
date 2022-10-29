@@ -48,6 +48,9 @@ nav:
         - 'Using XML to document a weather forecast': 'using-xml-to-document-weather-forecast.md'
         - 'Using XML to document a request to record a TV program': 'using-xml-to-document-request-to-record-TV-program.md'
         - 'XML vocabulary': 'xml-vocabulary.md'
+    - 'Git':
+        - 'What is Git?': 'what-is-git.md'
+        - 'Git vocabulary': 'git-vocabulary.md'    
 theme: material
 markdown_extensions:
   - abbr
