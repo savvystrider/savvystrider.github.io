@@ -50,6 +50,7 @@ nav:
         - 'XML vocabulary': 'xml-vocabulary.md'
     - 'Git':
         - 'What is Git?': 'what-is-git.md'
+        - 'How do I configure Git?': 'how-to-configure-git.md'
         - 'Git vocabulary': 'git-vocabulary.md'    
 theme: material
 markdown_extensions:
