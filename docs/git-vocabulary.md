@@ -32,6 +32,6 @@ One tree in the three-tree architecture of Git containing all the changes that h
 
 ##### Sources
 - Skoglund, K. (2019). Git Essential Training: The Basics [Video]. LinkedIn Learning. https://www.linkedin.com/learning/git-essential-training-the-basics
-- [Git Pro](https://git-scm.com/)
+- [Git Pro](https://git-scm.com/book/en/v2)
 - [Atlassian Git Tutorial](https://www.atlassian.com/git/tutorials/learn-git-with-bitbucket-cloud)
 - [GitHub Glossary](https://docs.github.com/en/get-started/quickstart/github-glossary)

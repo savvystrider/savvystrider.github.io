@@ -23,5 +23,5 @@ You would assume that running the `git init` command will let Git know we would 
 
 ##### Sources
 - Skoglund, K. (2019). Git Essential Training: The Basics [Video]. LinkedIn Learning. https://www.linkedin.com/learning/git-essential-training-the-basics
-- [Pro Git](https://git-scm.com/)
+- [Pro Git](https://git-scm.com/book/en/v2)
 - [Atlassian Git Tutorial](https://www.atlassian.com/git/tutorials/learn-git-with-bitbucket-cloud)

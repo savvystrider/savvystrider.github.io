@@ -73,4 +73,4 @@ To view individual configurations in the command line, use the following command
 
 ##### Sources
 - Skoglund, K. (2019). Git Essential Training: The Basics [Video]. LinkedIn Learning. https://www.linkedin.com/learning/git-essential-training-the-basics
-- [Git Pro](https://git-scm.com/)
+- [Git Pro](https://git-scm.com/book/en/v2)
