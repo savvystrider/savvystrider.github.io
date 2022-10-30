@@ -21,6 +21,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://savvystrider.github.io/api-vocabulary/</loc>
+         <lastmod>2022-10-30</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://savvystrider.github.io/documenting-json-requests/</loc>
          <lastmod>2022-10-30</lastmod>
          <changefreq>daily</changefreq>
@@ -171,6 +176,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://savvystrider.github.io/what-is-an-api/</loc>
+         <lastmod>2022-10-30</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://savvystrider.github.io/what-is-an-endpoint/</loc>
          <lastmod>2022-10-30</lastmod>
          <changefreq>daily</changefreq>
@@ -222,16 +232,6 @@
     </url>
     <url>
          <loc>https://savvystrider.github.io/xml-vocabulary/</loc>
-         <lastmod>2022-10-30</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://savvystrider.github.io/APIs/api-vocabulary/</loc>
-         <lastmod>2022-10-30</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://savvystrider.github.io/APIs/what-is-an-api/</loc>
          <lastmod>2022-10-30</lastmod>
          <changefreq>daily</changefreq>
     </url>
