@@ -55,6 +55,7 @@ nav:
         - 'What is the architecture of Git?': 'what-is-git-architecture.md'
         - 'How do I add files in Git?': 'how-to-add-files-in-git.md'
         - 'How do I commit changes in Git?': 'how-to-commit-changes-in-git.md'
+        - 'What are the essential Git commands?': 'what-are-essential-git-commands.md'
         - 'Git vocabulary': 'git-vocabulary.md'    
 theme: material
 markdown_extensions:

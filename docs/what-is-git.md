@@ -43,4 +43,4 @@ Nope! More on that later...
 
 ##### Sources
 - Skoglund, K. (2019). Git Essential Training: The Basics [Video]. LinkedIn Learning. https://www.linkedin.com/learning/git-essential-training-the-basics
-- [Pro Git](hhttps://git-scm.com/book/en/v2)
+- [Pro Git](https://git-scm.com/book/en/v2)

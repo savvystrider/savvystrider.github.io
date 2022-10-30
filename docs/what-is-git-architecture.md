@@ -28,7 +28,7 @@ Git uses a three-tree architecture. It has:
 flowchart LR
     A[repository]
     B[staging index]
-    C[working]
+    C[working directory]
 ```
 In Git, you have a copy of the repository in your working directory where you can edit files. When you're ready for Git to start tracking your changes, you add files to the staging index. Then, you commit your changes to the repository along with a message.
 

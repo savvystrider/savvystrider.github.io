@@ -1,5 +1,5 @@
 # How do I commit my changes in Git?
-Let's say you have [added a file](docs/how-to-add-files-in-git.md) to the staging index called `newpost.txt`. To get the file into the repository, you must **commit** your changes *and* include a message.
+Let's say you have [added a file](how-to-add-files-in-git.md) to the staging index called `newpost.txt`. To get the file into the repository, you must **commit** your changes *and* include a message.
 
 To commit the changes to our file, you can use the following command:
 
@@ -27,5 +27,5 @@ This command combines the `-a` and `-m` options above.
 
 ##### Sources
 - Skoglund, K. (2019). Git Essential Training: The Basics [Video]. LinkedIn Learning. https://www.linkedin.com/learning/git-essential-training-the-basics
-- [Pro Git](hhttps://git-scm.com/book/en/v2)
+- [Pro Git](https://git-scm.com/book/en/v2)
 - [Atlassian Git Tutorial](https://www.atlassian.com/git/tutorials/learn-git-with-bitbucket-cloud)
