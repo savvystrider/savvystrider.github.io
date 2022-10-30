@@ -1,38 +1,36 @@
-# What are the essential Git commands?
-
-`git init`
+### **`git init`**
 
 Initializes a Git repository.
 
-`git config`
+### **`git config`**
 
 Lists configured settings.
 
-`git help`
+### **`git help`**
 
 Lists Git help topics.
 
-`git add`
+### **`git add`**
 
 Adds a file to the staging index.
 
-`git commit`
+### **`git commit`**
 
 Commits a file to the repository.
 
-`git status`
+### **`git status`**
 
 Shows the status of the working directory.
 
-`git log`
+### **`git log`**
 
 Shows a log, or history, of commits.
 
-`git clone`
+### **`git clone`**
 
 Creates a copy (or *clone*) of a repository in your working directory.
 
-`git diff`
+### **`git diff`**
 Shows unstaged changes between your index and working directory.
 
 ***
