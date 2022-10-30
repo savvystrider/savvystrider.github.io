@@ -5,8 +5,8 @@ nav:
     - 'Home': 'index.md'
     - 'About': 'about.md'
     - 'APIs':
-        - 'What are APIs?': 'what-is-an-api.md'
-        - 'API vocabulary': 'api-vocabulary.md'
+        - 'What are APIs?': docs/APIs/'what-is-an-api.md'
+        - 'API vocabulary': docs/APIs/'api-vocabulary.md'
     - 'REST APIs':
         - 'What are REST APIs?': 'what-is-a-rest-api.md'
         - 'What is REST?': 'what-is-rest.md'
