@@ -1241,8 +1241,8 @@
     B[working]</code></pre>
 <p>You "check out" files from the repository and edit them within your working directory:</p>
 <pre class="mermaid"><code>stateDiagram-v2
-    repository --&gt; working: checkout
-    working --&gt; repository: commit</code></pre>
+    repository --&gt; working directory: checkout
+    working directory --&gt; repository: commit</code></pre>
 <p>After those changes are made, you <strong>commit</strong> the changes back to the repository.</p>
 <h2 id="what-is-a-three-tree-architecture">What is a three-tree architecture?</h2>
 <p>Git uses a three-tree architecture. It has:</p>
