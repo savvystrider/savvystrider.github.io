@@ -8,19 +8,21 @@
       
       
       
-      <link rel="icon" href="/assets/images/favicon.png">
+        <link rel="canonical" href="https://savvystrider.github.io/what-is-git-architecture/">
+      
+      <link rel="icon" href="../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.4.1, mkdocs-material-8.5.7">
     
     
       
-        <title>Manish writes about it...</title>
+        <title>What is the architecture of Git? - Manish writes about it...</title>
       
     
     
-      <link rel="stylesheet" href="/assets/stylesheets/main.20d9efc8.min.css">
+      <link rel="stylesheet" href="../assets/stylesheets/main.20d9efc8.min.css">
       
         
-        <link rel="stylesheet" href="/assets/stylesheets/palette.cbb835fc.min.css">
+        <link rel="stylesheet" href="../assets/stylesheets/palette.cbb835fc.min.css">
         
       
       
@@ -37,7 +39,7 @@
       
     
     
-    <script>__md_scope=new URL("/",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -61,6 +63,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#what-is-the-architecture-of-git" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -71,7 +78,7 @@
 
 <header class="md-header" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="/." title="Manish writes about it..." class="md-header__button md-logo" aria-label="Manish writes about it..." data-md-component="logo">
+    <a href=".." title="Manish writes about it..." class="md-header__button md-logo" aria-label="Manish writes about it..." data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
@@ -90,7 +97,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              
+              What is the architecture of Git?
             
           </span>
         </div>
@@ -157,7 +164,7 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="/." title="Manish writes about it..." class="md-nav__button md-logo" aria-label="Manish writes about it..." data-md-component="logo">
+    <a href=".." title="Manish writes about it..." class="md-nav__button md-logo" aria-label="Manish writes about it..." data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
@@ -176,7 +183,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/." class="md-nav__link">
+      <a href=".." class="md-nav__link">
         Home
       </a>
     </li>
@@ -191,7 +198,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/about/" class="md-nav__link">
+      <a href="../about/" class="md-nav__link">
         About
       </a>
     </li>
@@ -232,7 +239,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/what-is-an-api/" class="md-nav__link">
+      <a href="../what-is-an-api/" class="md-nav__link">
         What are APIs?
       </a>
     </li>
@@ -246,7 +253,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/api-vocabulary/" class="md-nav__link">
+      <a href="../api-vocabulary/" class="md-nav__link">
         API vocabulary
       </a>
     </li>
@@ -294,7 +301,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/what-is-a-rest-api/" class="md-nav__link">
+      <a href="../what-is-a-rest-api/" class="md-nav__link">
         What are REST APIs?
       </a>
     </li>
@@ -308,7 +315,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/what-is-rest/" class="md-nav__link">
+      <a href="../what-is-rest/" class="md-nav__link">
         What is REST?
       </a>
     </li>
@@ -322,7 +329,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/five-common-sections-in-rest-api-docs/" class="md-nav__link">
+      <a href="../five-common-sections-in-rest-api-docs/" class="md-nav__link">
         Five common sections in REST API documents
       </a>
     </li>
@@ -336,7 +343,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/what-is-an-endpoint/" class="md-nav__link">
+      <a href="../what-is-an-endpoint/" class="md-nav__link">
         What is an endpoint?
       </a>
     </li>
@@ -350,7 +357,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/what-is-postman/" class="md-nav__link">
+      <a href="../what-is-postman/" class="md-nav__link">
         What is Postman?
       </a>
     </li>
@@ -364,7 +371,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/rest-api-vocabulary/" class="md-nav__link">
+      <a href="../rest-api-vocabulary/" class="md-nav__link">
         REST API vocabulary
       </a>
     </li>
@@ -412,7 +419,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/what-is-http/" class="md-nav__link">
+      <a href="../what-is-http/" class="md-nav__link">
         What is HTTP?
       </a>
     </li>
@@ -426,7 +433,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/what-are-http-methods/" class="md-nav__link">
+      <a href="../what-are-http-methods/" class="md-nav__link">
         What are HTTP methods?
       </a>
     </li>
@@ -440,7 +447,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/what-are-http-messages/" class="md-nav__link">
+      <a href="../what-are-http-messages/" class="md-nav__link">
         What are HTTP messages?
       </a>
     </li>
@@ -454,7 +461,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/what-are-http-requests/" class="md-nav__link">
+      <a href="../what-are-http-requests/" class="md-nav__link">
         What are HTTP requests?
       </a>
     </li>
@@ -468,7 +475,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/what-are-http-responses/" class="md-nav__link">
+      <a href="../what-are-http-responses/" class="md-nav__link">
         What are HTTP responses?
       </a>
     </li>
@@ -482,7 +489,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/the-syntax-of-uris/" class="md-nav__link">
+      <a href="../the-syntax-of-uris/" class="md-nav__link">
         The syntax of URIs
       </a>
     </li>
@@ -496,7 +503,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/http-vocabulary/" class="md-nav__link">
+      <a href="../http-vocabulary/" class="md-nav__link">
         HTTP vocabulary
       </a>
     </li>
@@ -544,7 +551,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/what-is-json/" class="md-nav__link">
+      <a href="../what-is-json/" class="md-nav__link">
         What is JSON?
       </a>
     </li>
@@ -558,7 +565,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/what-are-basic-json-data-types/" class="md-nav__link">
+      <a href="../what-are-basic-json-data-types/" class="md-nav__link">
         What are the basic JSON data types?
       </a>
     </li>
@@ -572,7 +579,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/what-are-arrays-and-objects-in-json/" class="md-nav__link">
+      <a href="../what-are-arrays-and-objects-in-json/" class="md-nav__link">
         What are arrays and objects?
       </a>
     </li>
@@ -586,7 +593,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/what-is-nesting-in-json/" class="md-nav__link">
+      <a href="../what-is-nesting-in-json/" class="md-nav__link">
         What is nesting?
       </a>
     </li>
@@ -600,7 +607,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/documenting-single-level-response-in-json/" class="md-nav__link">
+      <a href="../documenting-single-level-response-in-json/" class="md-nav__link">
         Documenting a single-level response in JSON
       </a>
     </li>
@@ -614,7 +621,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/documenting-json-with-nesting/" class="md-nav__link">
+      <a href="../documenting-json-with-nesting/" class="md-nav__link">
         Documenting JSON with nesting
       </a>
     </li>
@@ -628,7 +635,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/documenting-json-requests/" class="md-nav__link">
+      <a href="../documenting-json-requests/" class="md-nav__link">
         Documenting JSON requests
       </a>
     </li>
@@ -642,7 +649,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/activity-using-json-to-describe-menu-structure/" class="md-nav__link">
+      <a href="../activity-using-json-to-describe-menu-structure/" class="md-nav__link">
         Activity - Using JSON to describe the structure of a menu
       </a>
     </li>
@@ -656,7 +663,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/json-vocabulary/" class="md-nav__link">
+      <a href="../json-vocabulary/" class="md-nav__link">
         JSON vocabulary
       </a>
     </li>
@@ -704,7 +711,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/what-is-curl/" class="md-nav__link">
+      <a href="../what-is-curl/" class="md-nav__link">
         What is curl?
       </a>
     </li>
@@ -718,7 +725,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/what-are-curl-command-options/" class="md-nav__link">
+      <a href="../what-are-curl-command-options/" class="md-nav__link">
         curl command options
       </a>
     </li>
@@ -732,7 +739,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/activity-use-methods-with-curl/" class="md-nav__link">
+      <a href="../activity-use-methods-with-curl/" class="md-nav__link">
         Activity - Use methods with curl
       </a>
     </li>
@@ -780,7 +787,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/exercise-documenting-api-endpoints/" class="md-nav__link">
+      <a href="../exercise-documenting-api-endpoints/" class="md-nav__link">
         Exercise - Documenting API endpoints
       </a>
     </li>
@@ -794,7 +801,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/mock-surf-report-wiki/" class="md-nav__link">
+      <a href="../mock-surf-report-wiki/" class="md-nav__link">
         Mock surf report wiki
       </a>
     </li>
@@ -808,7 +815,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/mock-surf-report-api-documentation/" class="md-nav__link">
+      <a href="../mock-surf-report-api-documentation/" class="md-nav__link">
         Mock surf report API documentation
       </a>
     </li>
@@ -856,7 +863,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/what-is-xml/" class="md-nav__link">
+      <a href="../what-is-xml/" class="md-nav__link">
         What is XML?
       </a>
     </li>
@@ -870,7 +877,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/what-are-tags-and-elements-in-xml/" class="md-nav__link">
+      <a href="../what-are-tags-and-elements-in-xml/" class="md-nav__link">
         What are tags and elements in XML?
       </a>
     </li>
@@ -884,7 +891,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/what-are-attributes-in-xml/" class="md-nav__link">
+      <a href="../what-are-attributes-in-xml/" class="md-nav__link">
         What are attributes in XML?
       </a>
     </li>
@@ -898,7 +905,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/what-are-namespaces-in-xml/" class="md-nav__link">
+      <a href="../what-are-namespaces-in-xml/" class="md-nav__link">
         What are namespaces in XML?
       </a>
     </li>
@@ -912,7 +919,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/using-xml-to-document-weather-forecast/" class="md-nav__link">
+      <a href="../using-xml-to-document-weather-forecast/" class="md-nav__link">
         Using XML to document a weather forecast
       </a>
     </li>
@@ -926,7 +933,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/using-xml-to-document-request-to-record-TV-program/" class="md-nav__link">
+      <a href="../using-xml-to-document-request-to-record-TV-program/" class="md-nav__link">
         Using XML to document a request to record a TV program
       </a>
     </li>
@@ -940,7 +947,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/xml-vocabulary/" class="md-nav__link">
+      <a href="../xml-vocabulary/" class="md-nav__link">
         XML vocabulary
       </a>
     </li>
@@ -960,12 +967,14 @@
 
   
   
+    
+  
   
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_10" type="checkbox" id="__nav_10" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_10" type="checkbox" id="__nav_10" checked>
       
       
       
@@ -988,7 +997,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/what-is-git/" class="md-nav__link">
+      <a href="../what-is-git/" class="md-nav__link">
         What is Git?
       </a>
     </li>
@@ -1002,7 +1011,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/how-to-configure-git/" class="md-nav__link">
+      <a href="../how-to-configure-git/" class="md-nav__link">
         How do I configure Git?
       </a>
     </li>
@@ -1016,7 +1025,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/how-to-initialize-git-repository/" class="md-nav__link">
+      <a href="../how-to-initialize-git-repository/" class="md-nav__link">
         How do I initialize a Git repository?
       </a>
     </li>
@@ -1028,11 +1037,52 @@
               
   
   
+    
   
-    <li class="md-nav__item">
-      <a href="/what-is-git-architecture/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          What is the architecture of Git?
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         What is the architecture of Git?
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#sources" class="md-nav__link">
+    Sources
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -1044,7 +1094,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/git-vocabulary/" class="md-nav__link">
+      <a href="../git-vocabulary/" class="md-nav__link">
         Git vocabulary
       </a>
     </li>
@@ -1075,6 +1125,23 @@
   
   
   
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#sources" class="md-nav__link">
+    Sources
+  </a>
+  
+</li>
+      
+    </ul>
   
 </nav>
                   </div>
@@ -1086,8 +1153,29 @@
             <div class="md-content" data-md-component="content">
               <article class="md-content__inner md-typeset">
                 
-  <h1>404 - Not found</h1>
+                  
 
+
+<h1 id="what-is-the-architecture-of-git">What is the architecture of Git?</h1>
+<p>Other version control system use a <strong>two-tree architecture</strong>. The two trees refer to the <strong>repository</strong> and the <strong>working directory</strong>:</p>
+<p>graph TD
+    A[Repository] --&gt; B[Working directory]</p>
+<p>When we want to move files between the repository or the working directory, we "check out" copies from the repository into our working directory.</p>
+<p>stateDiagram-v2
+    Repository --&gt; Working
+    Working --&gt; Repository</p>
+<hr />
+<h5 id="sources">Sources</h5>
+<ul>
+<li>Skoglund, K. (2019). Git Essential Training: The Basics [Video]. LinkedIn Learning. https://www.linkedin.com/learning/git-essential-training-the-basics</li>
+<li><a href="hhttps://git-scm.com/book/en/v2">Pro Git</a></li>
+</ul>
+
+
+
+
+
+                
               </article>
             </div>
           
@@ -1097,6 +1185,42 @@
       </main>
       
         <footer class="md-footer">
+  
+    
+    <nav class="md-footer__inner md-grid" aria-label="Footer" >
+      
+        
+        <a href="../how-to-initialize-git-repository/" class="md-footer__link md-footer__link--prev" aria-label="Previous: How do I initialize a Git repository?" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              How do I initialize a Git repository?
+            </div>
+          </div>
+        </a>
+      
+      
+        
+        <a href="../git-vocabulary/" class="md-footer__link md-footer__link--next" aria-label="Next: Git vocabulary" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              Git vocabulary
+            </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"/></svg>
+          </div>
+        </a>
+      
+    </nav>
   
   <div class="md-footer-meta md-typeset">
     <div class="md-footer-meta__inner md-grid">
@@ -1119,10 +1243,10 @@
       <div class="md-dialog__inner md-typeset"></div>
     </div>
     
-    <script id="__config" type="application/json">{"base": "/", "features": [], "search": "/assets/javascripts/workers/search.16e2a7d4.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": "..", "features": [], "search": "../assets/javascripts/workers/search.16e2a7d4.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}</script>
     
     
-      <script src="/assets/javascripts/bundle.8492ddcf.min.js"></script>
+      <script src="../assets/javascripts/bundle.8492ddcf.min.js"></script>
       
     
   </body>
