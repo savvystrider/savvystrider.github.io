@@ -3,16 +3,16 @@ Other version control system use a **two-tree architecture**. The two trees refe
 
 ``` mermaid
 flowchart LR
-    repository
-    working
+    [repository]
+    [working]
 ```
 
 When we want to move files between the repository or the working directory, we "check out" copies from the repository into our working directory.
 
 ``` mermaid
 stateDiagram-v2
-    Repository --> Working
-    Working --> Repository
+    repository --> working
+    working --> repository
 ```
 
 ***
