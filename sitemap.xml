@@ -56,6 +56,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://savvystrider.github.io/how-to-configure-git/</loc>
+         <lastmod>2022-10-30</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://savvystrider.github.io/http-vocabulary/</loc>
          <lastmod>2022-10-30</lastmod>
          <changefreq>daily</changefreq>
