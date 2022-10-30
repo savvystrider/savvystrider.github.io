@@ -136,6 +136,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://savvystrider.github.io/what-are-essential-git-commands/</loc>
+         <lastmod>2022-10-30</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://savvystrider.github.io/what-are-http-messages/</loc>
          <lastmod>2022-10-30</lastmod>
          <changefreq>daily</changefreq>
