@@ -4,7 +4,7 @@ Other version control systems use a **two-tree architecture**. The two trees ref
 ``` mermaid
 flowchart LR
     A[repository]
-    B[working]
+    B[working directory]
 ```
 
 You "check out" files from the repository and edit them within your working directory:
