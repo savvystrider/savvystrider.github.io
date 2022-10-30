@@ -40,4 +40,4 @@ If not, then you will have to install Git.
 
 ##### Sources
 - Skoglund, K. (2019). Git Essential Training: The Basics [Video]. LinkedIn Learning. https://www.linkedin.com/learning/git-essential-training-the-basics
-- [Git](https://git-scm.com/)
+- [Pro Git](https://git-scm.com/)

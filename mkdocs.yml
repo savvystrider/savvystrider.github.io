@@ -51,6 +51,7 @@ nav:
     - 'Git':
         - 'What is Git?': 'what-is-git.md'
         - 'How do I configure Git?': 'how-to-configure-git.md'
+        - 'How do I initialize a Git repository?': 'how-to-initialize-git-repository.md'
         - 'Git vocabulary': 'git-vocabulary.md'    
 theme: material
 markdown_extensions:

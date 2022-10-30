@@ -31,6 +31,7 @@ After you have installed Git, make sure to configure these settings.
 In the command line, you can set your user name and email for Git:
 
 `git config --global user.name "username"`
+
 `git config --global user.email "email@example.com"`
 
 This is important because a major part of the Git workflow is making "commits" and each commit needs this information.
@@ -63,6 +64,7 @@ You can view a full list of your configurations by using the following command:
 To view individual configurations in the command line, use the following command:
 
 `git config --global user.name`
+
 `git config --global user.email`
 
 *[UI]: User interface
@@ -71,4 +73,4 @@ To view individual configurations in the command line, use the following command
 
 ##### Sources
 - Skoglund, K. (2019). Git Essential Training: The Basics [Video]. LinkedIn Learning. https://www.linkedin.com/learning/git-essential-training-the-basics
-- [Git](https://git-scm.com/)
+- [Git Pro](https://git-scm.com/)
