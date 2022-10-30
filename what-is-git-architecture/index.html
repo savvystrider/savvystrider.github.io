@@ -1158,12 +1158,13 @@
 
 <h1 id="what-is-the-architecture-of-git">What is the architecture of Git?</h1>
 <p>Other version control system use a <strong>two-tree architecture</strong>. The two trees refer to the <strong>repository</strong> and the <strong>working directory</strong>:</p>
-<p>graph TD
-    A[Repository] --&gt; B[Working directory]</p>
+<pre class="mermaid"><code>flowchart LR
+    repository
+    working</code></pre>
 <p>When we want to move files between the repository or the working directory, we "check out" copies from the repository into our working directory.</p>
-<p>stateDiagram-v2
+<pre class="mermaid"><code>stateDiagram-v2
     Repository --&gt; Working
-    Working --&gt; Repository</p>
+    Working --&gt; Repository</code></pre>
 <hr />
 <h5 id="sources">Sources</h5>
 <ul>
