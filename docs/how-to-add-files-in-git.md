@@ -1,6 +1,6 @@
 # How do I add files in Git?
 
-Let's say that you have Git installed *and* you've [initialized the repository](docs\how-to-initialize-git-repository.md). Is Git tracking any new files that you create?
+Let's say that you have Git installed *and* you've [initialized the repository](docs/how-to-initialize-git-repository.md). Is Git tracking any new files that you create?
 
 Not until you **add** them.
 
