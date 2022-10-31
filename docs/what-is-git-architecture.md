@@ -11,8 +11,10 @@ You "check out" files from the repository and edit them within your working dire
 
 ``` mermaid
 stateDiagram-v2
-    repository --> working directory: checkout
-    working directory --> repository: commit
+    s1 : repository
+    s2 : working directory
+    s1 --> s2: checkout
+    s2 --> s1: commit
 ```
 
 After those changes are made, you **commit** the changes back to the repository.
