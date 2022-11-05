@@ -14,6 +14,8 @@ nav:
         - 'What is an endpoint?': 'what-is-an-endpoint.md'
         - 'What is Postman?': 'what-is-postman.md'
         - 'REST API vocabulary': 'rest-api-vocabulary.md'
+    - 'Swagger':
+        - 'What is Swagger?': 'what-is-swagger.md'
     - 'HTTP':
            - 'What is HTTP?': 'what-is-http.md'
            - 'What are HTTP methods?': 'what-are-http-methods.md'
