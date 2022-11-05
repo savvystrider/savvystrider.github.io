@@ -1,3 +1,8 @@
+### Clone / Cloning
+A *clone* is a copy of a remote repository on your computer instead of on a server somewhere.
+
+*Cloning* is the act of making that copy.
+
 ### Commit
 The action of submitting a change for permanent tracking by Git.
 

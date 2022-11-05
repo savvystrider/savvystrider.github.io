@@ -57,6 +57,8 @@ nav:
         - 'What is the architecture of Git?': 'what-is-git-architecture.md'
         - 'How do I add files in Git?': 'how-to-add-files-in-git.md'
         - 'How do I commit changes in Git?': 'how-to-commit-changes-in-git.md'
+        - 'How do I write good commit messages in Git?': 'how-do-i-write-git-commit-messages.md'
+        - 'What are hash values in Git?': 'what-are-git-hash-values.md'
         - 'What are the essential Git commands?': 'what-are-essential-git-commands.md'
         - 'What is cloning in Git?': 'what-is-cloning-in-git.md'
         - 'Git vocabulary': 'git-vocabulary.md'
