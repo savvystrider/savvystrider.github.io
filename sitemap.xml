@@ -191,6 +191,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://savvystrider.github.io/what-is-cloning-in-git/</loc>
+         <lastmod>2022-11-05</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://savvystrider.github.io/what-is-curl/</loc>
          <lastmod>2022-11-05</lastmod>
          <changefreq>daily</changefreq>
