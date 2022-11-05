@@ -6,7 +6,7 @@ No.
 
 **GitHub** is a platform for hosting and collaborating on code. **Git** is the core technology that GitHub is built on top of.
 
-!!! quote
+!!! info
 
     To best use GitHub, you'll need to set up Git. Git is responsible for everything GitHub-related that happens locally on your computer. To effectively collaborate on GitHub, you'll write in issues and pull requests using GitHub Flavored Markdown.
     

@@ -56,6 +56,7 @@ nav:
         - 'How do I add files in Git?': 'how-to-add-files-in-git.md'
         - 'How do I commit changes in Git?': 'how-to-commit-changes-in-git.md'
         - 'What are the essential Git commands?': 'what-are-essential-git-commands.md'
+        - 'What is cloning in Git?': 'what-is-cloning-in-git.md'
         - 'Git vocabulary': 'git-vocabulary.md'
     - 'GitHub':
         - 'What is GitHub?': 'what-is-github.md'

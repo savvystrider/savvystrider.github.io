@@ -37,7 +37,7 @@ Do you see a response this like this?
 If not, then you will have to install Git.
 
 ## Are Git and GitHub the same thing?
-Nope! More on that later...
+Nope! [More on that later](what-is-github.md)...
 
 ***
 

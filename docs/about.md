@@ -10,7 +10,7 @@ This website is primarily about the study of REST APIs and REST API documentatio
 
 - [Git](what-is-git.md)
 
-- GitHub
+- [GitHub](what-is-github.md)
 
 - Static site generators
 

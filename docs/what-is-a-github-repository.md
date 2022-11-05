@@ -1,6 +1,6 @@
 # What is a GitHub repository?
 
-!!! quote
+!!! info
 
     A repository contains all of your project's files and each file's revision history. You can discuss and manage your project's work within the repository.
 
@@ -20,9 +20,8 @@ The easiest way to create a new repository is to go through this URL:
 
     You can also click on the `+` button at the top of the page or click on the green **Create a new repository** button.
 
-This takes you directly to the **Create a new repository** page. 
+This takes you directly to the **Create a new repository** page. You have the option to use a **Repository template**. If you use a template, your new repository will include the contents of the template.
 
-1. Start with a **Repository template** (optional). If you use a template, your new repository will include the contents of the template.
 2. Choose an **Owner** of the repository. This is populated by default.
 3. Create a short **Repository Name**.
 4. Include a short description of your repository (optional).
