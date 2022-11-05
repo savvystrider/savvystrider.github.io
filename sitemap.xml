@@ -56,6 +56,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://savvystrider.github.io/how-do-i-write-git-commit-messages/</loc>
+         <lastmod>2022-11-05</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://savvystrider.github.io/how-to-add-files-in-git/</loc>
          <lastmod>2022-11-05</lastmod>
          <changefreq>daily</changefreq>
@@ -137,6 +142,11 @@
     </url>
     <url>
          <loc>https://savvystrider.github.io/what-are-essential-git-commands/</loc>
+         <lastmod>2022-11-05</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://savvystrider.github.io/what-are-git-hash-values/</loc>
          <lastmod>2022-11-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
