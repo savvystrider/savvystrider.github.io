@@ -56,7 +56,10 @@ nav:
         - 'How do I add files in Git?': 'how-to-add-files-in-git.md'
         - 'How do I commit changes in Git?': 'how-to-commit-changes-in-git.md'
         - 'What are the essential Git commands?': 'what-are-essential-git-commands.md'
-        - 'Git vocabulary': 'git-vocabulary.md'    
+        - 'Git vocabulary': 'git-vocabulary.md'
+    - 'GitHub':
+        - 'What is GitHub?': 'what-is-github.md'
+        - 'What is a GitHub repository?': 'what-is-a-github-repository.md'        
 theme: material
 markdown_extensions:
   - abbr
