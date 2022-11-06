@@ -1198,8 +1198,8 @@
   
   
     <li class="md-nav__item">
-      <a href="../what-are-essential-git-commands/" class="md-nav__link">
-        What are the essential Git commands?
+      <a href="../what-is-cloning-in-git/" class="md-nav__link">
+        What is cloning in Git?
       </a>
     </li>
   
@@ -1212,8 +1212,8 @@
   
   
     <li class="md-nav__item">
-      <a href="../what-is-cloning-in-git/" class="md-nav__link">
-        What is cloning in Git?
+      <a href="../what-are-essential-git-commands/" class="md-nav__link">
+        What are the essential Git commands?
       </a>
     </li>
   
@@ -1351,11 +1351,6 @@
 
 
 <h1 id="what-are-hash-values-in-git">What are hash values in Git?</h1>
-<div class="admonition info">
-<p class="admonition-title">Info</p>
-<p>Git has been designed with the integrity of managed source code as a top priority. The content of the files as well as the true relationships between files and directories, versions, tags and commits, all of these objects in the Git repository are secured with a cryptographically secure hashing algorithm called SHA1. This protects the code and the change history against both accidental and malicious change and ensures that the history is fully traceable.
-- <em>Atlassian Git Tutorial</em></p>
-</div>
 <p>Git uses the <strong>SHA-1</strong> hash algorithm to generate a number for each change in a document. The numbers are often referred to as <em>SHA values</em>.</p>
 <p>Checksum algorithms convert data into a simple number called a checksum. The same data always results in the same checksum in order to guarantee data integrity.</p>
 <p>Git generates a 40-character hexadecimal string for each commit. Example:</p>
@@ -1363,7 +1358,7 @@
 <p>Git creates these values based on what's in the data itself. This means you can't change the commit message, commit author, or the "parent" of the commit without also changing the SHA value. </p>
 <p><img align="center" alt="Git hash values" src="../img/git-hash-values.png" /></p>
 <p>When Git generates snapshot A, it takes the parent, the author, the message, and all of the code changes, and generates its SHA value.</p>
-<p>Then, when we make snapshot B, snapshot B also goes through that same process, but it includes the SHA value from snapshot A, so that it's linked to A.</p>
+<p>Then, when Git makes snapshot B, it  goes through that same process. However, it includes the SHA value from snapshot A, so that it's linked to A.</p>
 <p>If we were to change something in snapshot A, then A's SHA value would change and B wouldn't point to it anymore.</p>
 <hr />
 <h5 id="sources">Sources</h5>
@@ -1407,13 +1402,13 @@
       
       
         
-        <a href="../what-are-essential-git-commands/" class="md-footer__link md-footer__link--next" aria-label="Next: What are the essential Git commands?" rel="next">
+        <a href="../what-is-cloning-in-git/" class="md-footer__link md-footer__link--next" aria-label="Next: What is cloning in Git?" rel="next">
           <div class="md-footer__title">
             <div class="md-ellipsis">
               <span class="md-footer__direction">
                 Next
               </span>
-              What are the essential Git commands?
+              What is cloning in Git?
             </div>
           </div>
           <div class="md-footer__button md-icon">
