@@ -1,10 +1,5 @@
 # What are hash values in Git?
 
-!!! info
-
-    Git has been designed with the integrity of managed source code as a top priority. The content of the files as well as the true relationships between files and directories, versions, tags and commits, all of these objects in the Git repository are secured with a cryptographically secure hashing algorithm called SHA1. This protects the code and the change history against both accidental and malicious change and ensures that the history is fully traceable.
-    - *Atlassian Git Tutorial*
-
 Git uses the **SHA-1** hash algorithm to generate a number for each change in a document. The numbers are often referred to as *SHA values*.
 
 Checksum algorithms convert data into a simple number called a checksum. The same data always results in the same checksum in order to guarantee data integrity.
@@ -19,7 +14,7 @@ Git creates these values based on what's in the data itself. This means you can'
 
 When Git generates snapshot A, it takes the parent, the author, the message, and all of the code changes, and generates its SHA value.
 
-Then, when we make snapshot B, snapshot B also goes through that same process, but it includes the SHA value from snapshot A, so that it's linked to A.
+Then, when Git makes snapshot B, it  goes through that same process. However, it includes the SHA value from snapshot A, so that it's linked to A.
 
 If we were to change something in snapshot A, then A's SHA value would change and B wouldn't point to it anymore.
 
